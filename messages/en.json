@@ -1,0 +1,135 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "skills": "Skills",
+    "projects": "Projects",
+    "experience": "Experience",
+    "education": "Education",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Hi, I'm",
+    "name": "Your Name",
+    "title": "Full Stack Developer",
+    "subtitle": "I build modern, performant web applications with clean code and great user experiences.",
+    "cta_projects": "View Projects",
+    "cta_contact": "Contact Me",
+    "available": "Available for work"
+  },
+  "about": {
+    "section_title": "About Me",
+    "description1": "I'm a passionate Full Stack Developer with 3+ years of experience building web applications. I love turning complex problems into simple, beautiful, and intuitive solutions.",
+    "description2": "When I'm not coding, you can find me exploring new technologies, contributing to open source, or enjoying the great outdoors.",
+    "stats": {
+      "years": "Years Experience",
+      "projects": "Projects Completed",
+      "clients": "Happy Clients",
+      "tech": "Technologies"
+    }
+  },
+  "skills": {
+    "section_title": "Skills",
+    "section_subtitle": "Technologies I work with",
+    "categories": {
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "database": "Database",
+      "tools": "Tools & Others"
+    }
+  },
+  "projects": {
+    "section_title": "Projects",
+    "section_subtitle": "Some of my recent work",
+    "view_code": "View Code",
+    "live_demo": "Live Demo",
+    "items": {
+      "project1": {
+        "title": "E-Commerce Platform",
+        "description": "A full-stack e-commerce solution built with Next.js, Node.js, and MongoDB. Features include authentication, payment integration, and admin dashboard."
+      },
+      "project2": {
+        "title": "Task Management App",
+        "description": "A real-time collaborative task management application built with React, Socket.io, and PostgreSQL."
+      },
+      "project3": {
+        "title": "AI Chat Interface",
+        "description": "A modern chat interface powered by OpenAI API with streaming responses, conversation history, and multi-model support."
+      }
+    }
+  },
+  "experience": {
+    "section_title": "Experience",
+    "section_subtitle": "My professional journey",
+    "present": "Present",
+    "items": {
+      "job1": {
+        "title": "Senior Full Stack Developer",
+        "company": "Tech Company",
+        "period": "2023 - Present",
+        "description": "Led development of microservices architecture, mentored junior developers, and improved application performance by 40%."
+      },
+      "job2": {
+        "title": "Full Stack Developer",
+        "company": "Startup Inc.",
+        "period": "2021 - 2023",
+        "description": "Built and maintained multiple client-facing web applications using React, Node.js, and cloud services."
+      },
+      "job3": {
+        "title": "Frontend Developer",
+        "company": "Agency XYZ",
+        "period": "2020 - 2021",
+        "description": "Developed responsive websites and web applications for various clients across different industries."
+      }
+    }
+  },
+  "education": {
+    "section_title": "Education",
+    "section_subtitle": "My academic background",
+    "items": {
+      "edu1": {
+        "degree": "Bachelor of Computer Science",
+        "school": "University of Technology",
+        "period": "2016 - 2020",
+        "description": "Specialized in Software Engineering and Artificial Intelligence. Graduated with honors."
+      },
+      "edu2": {
+        "degree": "AWS Certified Developer",
+        "school": "Amazon Web Services",
+        "period": "2022",
+        "description": "Professional certification in cloud development and architecture."
+      }
+    }
+  },
+  "contact": {
+    "section_title": "Contact",
+    "section_subtitle": "Get in touch",
+    "description": "Have a project in mind or want to work together? Feel free to reach out!",
+    "form": {
+      "name": "Your Name",
+      "email": "Your Email",
+      "subject": "Subject",
+      "message": "Your Message",
+      "send": "Send Message",
+      "sending": "Sending...",
+      "success": "Message sent successfully!",
+      "error": "Something went wrong. Please try again."
+    },
+    "info": {
+      "email": "Email",
+      "location": "Location",
+      "availability": "Availability"
+    }
+  },
+  "footer": {
+    "made_with": "Made with",
+    "by": "by",
+    "rights": "All rights reserved"
+  },
+  "theme": {
+    "toggle": "Toggle theme",
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System"
+  }
+}

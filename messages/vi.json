@@ -1,0 +1,135 @@
+{
+  "nav": {
+    "home": "Trang chủ",
+    "about": "Giới thiệu",
+    "skills": "Kỹ năng",
+    "projects": "Dự án",
+    "experience": "Kinh nghiệm",
+    "education": "Học vấn",
+    "contact": "Liên hệ"
+  },
+  "hero": {
+    "greeting": "Xin chào, tôi là",
+    "name": "Tên Của Bạn",
+    "title": "Lập Trình Viên Full Stack",
+    "subtitle": "Tôi xây dựng các ứng dụng web hiện đại, hiệu suất cao với mã nguồn sạch và trải nghiệm người dùng tuyệt vời.",
+    "cta_projects": "Xem Dự Án",
+    "cta_contact": "Liên Hệ",
+    "available": "Đang tìm kiếm cơ hội"
+  },
+  "about": {
+    "section_title": "Giới Thiệu",
+    "description1": "Tôi là một Lập Trình Viên Full Stack đam mê với hơn 3 năm kinh nghiệm xây dựng ứng dụng web. Tôi thích biến những vấn đề phức tạp thành các giải pháp đơn giản, đẹp và trực quan.",
+    "description2": "Khi không lập trình, bạn có thể thấy tôi khám phá các công nghệ mới, đóng góp cho mã nguồn mở, hoặc tận hưởng thiên nhiên.",
+    "stats": {
+      "years": "Năm Kinh Nghiệm",
+      "projects": "Dự Án Hoàn Thành",
+      "clients": "Khách Hàng Hài Lòng",
+      "tech": "Công Nghệ"
+    }
+  },
+  "skills": {
+    "section_title": "Kỹ Năng",
+    "section_subtitle": "Các công nghệ tôi làm việc",
+    "categories": {
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "database": "Cơ Sở Dữ Liệu",
+      "tools": "Công Cụ & Khác"
+    }
+  },
+  "projects": {
+    "section_title": "Dự Án",
+    "section_subtitle": "Một số dự án gần đây của tôi",
+    "view_code": "Xem Code",
+    "live_demo": "Xem Demo",
+    "items": {
+      "project1": {
+        "title": "Nền Tảng Thương Mại Điện Tử",
+        "description": "Giải pháp thương mại điện tử full-stack được xây dựng với Next.js, Node.js và MongoDB. Tính năng bao gồm xác thực, tích hợp thanh toán và bảng quản trị."
+      },
+      "project2": {
+        "title": "Ứng Dụng Quản Lý Công Việc",
+        "description": "Ứng dụng quản lý công việc cộng tác theo thời gian thực được xây dựng với React, Socket.io và PostgreSQL."
+      },
+      "project3": {
+        "title": "Giao Diện Chat AI",
+        "description": "Giao diện chat hiện đại được hỗ trợ bởi OpenAI API với phản hồi streaming, lịch sử hội thoại và hỗ trợ đa mô hình."
+      }
+    }
+  },
+  "experience": {
+    "section_title": "Kinh Nghiệm",
+    "section_subtitle": "Hành trình nghề nghiệp của tôi",
+    "present": "Hiện tại",
+    "items": {
+      "job1": {
+        "title": "Lập Trình Viên Full Stack Cao Cấp",
+        "company": "Công Ty Công Nghệ",
+        "period": "2023 - Hiện tại",
+        "description": "Dẫn dắt phát triển kiến trúc microservices, hướng dẫn lập trình viên junior và cải thiện hiệu suất ứng dụng lên 40%."
+      },
+      "job2": {
+        "title": "Lập Trình Viên Full Stack",
+        "company": "Startup Inc.",
+        "period": "2021 - 2023",
+        "description": "Xây dựng và duy trì nhiều ứng dụng web hướng tới khách hàng bằng React, Node.js và các dịch vụ đám mây."
+      },
+      "job3": {
+        "title": "Lập Trình Viên Frontend",
+        "company": "Agency XYZ",
+        "period": "2020 - 2021",
+        "description": "Phát triển các trang web và ứng dụng web responsive cho nhiều khách hàng trong các ngành khác nhau."
+      }
+    }
+  },
+  "education": {
+    "section_title": "Học Vấn",
+    "section_subtitle": "Nền tảng học thuật của tôi",
+    "items": {
+      "edu1": {
+        "degree": "Cử Nhân Khoa Học Máy Tính",
+        "school": "Đại Học Công Nghệ",
+        "period": "2016 - 2020",
+        "description": "Chuyên ngành Kỹ thuật Phần mềm và Trí tuệ Nhân tạo. Tốt nghiệp loại giỏi."
+      },
+      "edu2": {
+        "degree": "AWS Certified Developer",
+        "school": "Amazon Web Services",
+        "period": "2022",
+        "description": "Chứng chỉ chuyên nghiệp về phát triển và kiến trúc đám mây."
+      }
+    }
+  },
+  "contact": {
+    "section_title": "Liên Hệ",
+    "section_subtitle": "Liên lạc với tôi",
+    "description": "Bạn có dự án trong đầu hoặc muốn hợp tác? Hãy liên hệ với tôi!",
+    "form": {
+      "name": "Tên của bạn",
+      "email": "Email của bạn",
+      "subject": "Tiêu đề",
+      "message": "Nội dung tin nhắn",
+      "send": "Gửi Tin Nhắn",
+      "sending": "Đang gửi...",
+      "success": "Gửi tin nhắn thành công!",
+      "error": "Có lỗi xảy ra. Vui lòng thử lại."
+    },
+    "info": {
+      "email": "Email",
+      "location": "Địa Điểm",
+      "availability": "Tình Trạng"
+    }
+  },
+  "footer": {
+    "made_with": "Được tạo với",
+    "by": "bởi",
+    "rights": "Bản quyền thuộc về"
+  },
+  "theme": {
+    "toggle": "Chuyển giao diện",
+    "light": "Sáng",
+    "dark": "Tối",
+    "system": "Hệ thống"
+  }
+}

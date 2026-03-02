@@ -4,7 +4,7 @@ import { useTranslations } from "next-intl";
 import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef, useState } from "react";
-import { Mail, MapPin, Clock, Send } from "lucide-react";
+import { Mail, MapPin, Phone, Send } from "lucide-react";
 
 export function Contact() {
   const t = useTranslations("contact");
@@ -37,12 +37,12 @@ export function Contact() {
     "w-full px-4 py-3 rounded-xl border text-sm outline-none transition-all focus:ring-2";
 
   const contactInfo = [
-    { icon: Mail, label: t("info.email"), value: "your@email.com" },
-    { icon: MapPin, label: t("info.location"), value: "Ha Noi, Vietnam" },
+    { icon: Mail, label: t("info.email"), value: "caotancong2003@gmail.com" },
+    { icon: MapPin, label: t("info.location"), value: "17B Tân Trụ, P.15, Tân Bình, TP. HCM" },
     {
-      icon: Clock,
-      label: t("info.availability"),
-      value: "Mon - Fri, 9AM - 6PM",
+      icon: Phone,
+      label: t("info.phone"),
+      value: "0362 111 265",
     },
   ];
 

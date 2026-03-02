@@ -18,8 +18,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Portfolio - Full Stack Developer",
-  description: "Personal IT portfolio showcasing projects, skills and experience",
+  title: "Cao Tan Cong - Software Developer",
+  description:
+    "Personal IT portfolio of Cao Tan Cong showcasing projects, skills and experience in web, desktop and mobile development.",
 };
 
 export default async function LocaleLayout({

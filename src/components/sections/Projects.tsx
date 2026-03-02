@@ -6,7 +6,7 @@ import { useInView } from "framer-motion";
 import { useRef } from "react";
 import { Github, ExternalLink } from "lucide-react";
 
-type ProjectKey = "project1" | "project2" | "project3";
+type ProjectKey = "project1" | "project2" | "project3" | "project4" | "project5" | "project6";
 
 const projectsData: {
   key: ProjectKey;
@@ -16,21 +16,39 @@ const projectsData: {
 }[] = [
   {
     key: "project1",
-    tags: ["Next.js", "Node.js", "MongoDB", "Stripe"],
-    github: "https://github.com",
-    demo: "https://example.com",
+    tags: ["Android Java", "MySQL", "PHP API", "Firebase"],
+    github: "https://github.com/CongCaoIT/",
+    demo: "",
   },
   {
     key: "project2",
-    tags: ["React", "Socket.io", "PostgreSQL", "Redis"],
-    github: "https://github.com",
-    demo: "https://example.com",
+    tags: ["PHP", "MySQL"],
+    github: "https://github.com/CongCaoIT/",
+    demo: "",
   },
   {
     key: "project3",
-    tags: ["React", "OpenAI API", "TypeScript", "Vercel"],
-    github: "https://github.com",
-    demo: "https://example.com",
+    tags: ["Java Swing", "SQL Server"],
+    github: "https://github.com/CongCaoIT/",
+    demo: "",
+  },
+  {
+    key: "project4",
+    tags: ["ASP.NET MVC", "SQL Server"],
+    github: "https://github.com/CongCaoIT/",
+    demo: "",
+  },
+  {
+    key: "project5",
+    tags: [".NET WinForms", "Dev Express", "SQL Server"],
+    github: "https://github.com/CongCaoIT/",
+    demo: "",
+  },
+  {
+    key: "project6",
+    tags: ["HTML", "CSS", "JavaScript", "Bootstrap"],
+    github: "https://github.com/CongCaoIT/",
+    demo: "",
   },
 ];
 
@@ -121,16 +139,18 @@ export function Projects() {
                   <Github size={14} />
                   {t("view_code")}
                 </a>
-                <a
-                  href={demo}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-center gap-1.5 text-sm font-medium transition-colors"
-                  style={{ color: "var(--primary)" }}
-                >
-                  <ExternalLink size={14} />
-                  {t("live_demo")}
-                </a>
+                {demo && (
+                  <a
+                    href={demo}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-1.5 text-sm font-medium transition-colors"
+                    style={{ color: "var(--primary)" }}
+                  >
+                    <ExternalLink size={14} />
+                    {t("live_demo")}
+                  </a>
+                )}
               </div>
             </motion.div>
           ))}

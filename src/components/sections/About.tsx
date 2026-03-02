@@ -5,12 +5,13 @@ import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef } from "react";
 import { Code2, Users, Briefcase, Cpu } from "lucide-react";
+import Image from "next/image";
 
 const stats = [
-  { key: "years", value: "3+", icon: Briefcase },
-  { key: "projects", value: "20+", icon: Code2 },
-  { key: "clients", value: "10+", icon: Users },
-  { key: "tech", value: "15+", icon: Cpu },
+  { key: "years", value: "1", icon: Briefcase },
+  { key: "projects", value: "10+", icon: Code2 },
+  { key: "clients", value: "100+", icon: Users },
+  { key: "tech", value: "8+", icon: Cpu },
 ];
 
 export function About() {
@@ -42,16 +43,18 @@ export function About() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="space-y-6"
           >
-            {/* Avatar placeholder */}
-            <div
-              className="w-40 h-40 rounded-2xl mx-auto lg:mx-0 flex items-center justify-center text-5xl font-bold border-2"
-              style={{
-                background: "color-mix(in srgb, var(--primary) 15%, transparent)",
-                borderColor: "var(--primary)",
-                color: "var(--primary)",
-              }}
-            >
-              YN
+            {/* Avatar */}
+            <div className="relative mx-auto lg:mx-0 w-40 h-40">
+              <div
+                className="absolute inset-0 rounded-2xl blur-md opacity-30"
+                style={{ background: "var(--primary)" }}
+              />
+              <div
+                className="relative w-full h-full rounded-2xl border-2 overflow-hidden"
+                style={{ borderColor: "var(--primary)" }}
+              >
+                <Image src="/avatar.jpg" alt="Cao Tan Cong" fill className="object-cover" />
+              </div>
             </div>
             <p
               className="text-base md:text-lg leading-relaxed"

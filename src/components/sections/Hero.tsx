@@ -1,11 +1,22 @@
 "use client";
 
 import { useTranslations } from "next-intl";
-import { motion } from "framer-motion";
+import { motion, AnimatePresence } from "framer-motion";
 import { ArrowDown, Github, Linkedin, Mail, Sparkles } from "lucide-react";
+import { useEffect, useState } from "react";
+import Image from "next/image";
 
 export function Hero() {
   const t = useTranslations("hero");
+  const roles = t.raw("roles") as string[];
+  const [roleIndex, setRoleIndex] = useState(0);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setRoleIndex((prev) => (prev + 1) % roles.length);
+    }, 2500);
+    return () => clearInterval(interval);
+  }, [roles.length]);
 
   const scrollTo = (id: string) => {
     document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
@@ -53,6 +64,25 @@ export function Hero() {
           {t("available")}
         </motion.div>
 
+        {/* Avatar */}
+        <motion.div
+          initial={{ opacity: 0, scale: 0.8 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.6, delay: 0.05 }}
+          className="relative mx-auto mb-6 w-28 h-28 md:w-36 md:h-36"
+        >
+          <div
+            className="absolute inset-0 rounded-full blur-md opacity-40"
+            style={{ background: "var(--primary)" }}
+          />
+          <div
+            className="relative w-full h-full rounded-full border-2 overflow-hidden"
+            style={{ borderColor: "var(--primary)" }}
+          >
+            <Image src="/avatar.jpg" alt="Cao Tan Cong" fill className="object-cover" priority />
+          </div>
+        </motion.div>
+
         {/* Greeting */}
         <motion.p
           initial={{ opacity: 0, y: 20 }}
@@ -74,15 +104,26 @@ export function Hero() {
           {t("name")}
         </motion.h1>
 
-        {/* Title */}
+        {/* Title with animated role */}
         <motion.h2
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.3 }}
-          className="text-2xl md:text-3xl font-semibold mb-6"
+          className="text-2xl md:text-3xl font-semibold mb-6 flex items-center justify-center gap-2"
           style={{ color: "var(--foreground)" }}
         >
-          {t("title")}
+          <AnimatePresence mode="wait">
+            <motion.span
+              key={roleIndex}
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -10 }}
+              transition={{ duration: 0.4 }}
+              style={{ color: "var(--primary)" }}
+            >
+              {roles[roleIndex]}
+            </motion.span>
+          </AnimatePresence>
         </motion.h2>
 
         {/* Subtitle */}
@@ -143,7 +184,7 @@ export function Hero() {
           {[
             {
               icon: Github,
-              href: "https://github.com",
+              href: "https://github.com/CongCaoIT/",
               label: "GitHub",
             },
             {
@@ -153,7 +194,7 @@ export function Hero() {
             },
             {
               icon: Mail,
-              href: "mailto:your@email.com",
+              href: "mailto:caotancong2003@gmail.com",
               label: "Email",
             },
           ].map(({ icon: Icon, href, label }) => (

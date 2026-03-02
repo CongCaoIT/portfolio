@@ -10,23 +10,35 @@
   },
   "hero": {
     "greeting": "Hi, I'm",
-    "name": "Your Name",
-    "title": "Full Stack Developer",
-    "subtitle": "I build modern, performant web applications with clean code and great user experiences.",
+    "name": "Cao Tan Cong",
+    "title": "Software Developer",
+    "roles": ["Software", "Developer", "Intern", "Freelancer"],
+    "subtitle": "Passionate about technology, I love turning theoretical knowledge into practical solutions. I have experience developing Web and Android applications, always learning from new challenges.",
     "cta_projects": "View Projects",
     "cta_contact": "Contact Me",
-    "available": "Available for work"
+    "available": "Open to opportunities"
   },
   "about": {
     "section_title": "About Me",
-    "description1": "I'm a passionate Full Stack Developer with 3+ years of experience building web applications. I love turning complex problems into simple, beautiful, and intuitive solutions.",
-    "description2": "When I'm not coding, you can find me exploring new technologies, contributing to open source, or enjoying the great outdoors.",
+    "description1": "I'm an Information Technology student passionate about software development. I'm eager to enter the real world and contribute to the technology field, always striving to apply the latest knowledge to create innovative and practical solutions.",
+    "description2": "I have strong skills in Java, PHP, C# and experience with modern frameworks. I focus on writing clean, maintainable code and following software design principles. With a continuous learning spirit, I am committed to delivering high-quality software products.",
     "stats": {
-      "years": "Years Experience",
-      "projects": "Projects Completed",
-      "clients": "Happy Clients",
+      "years": "Year Experience",
+      "projects": "Academic Projects",
+      "clients": "Coding Hours",
       "tech": "Technologies"
-    }
+    },
+    "info": {
+      "name": "Full Name",
+      "dob": "Date of Birth",
+      "address": "Address",
+      "email": "Email",
+      "name_value": "Cao Tan Cong",
+      "dob_value": "26/10/2003",
+      "address_value": "Tan Binh, Ho Chi Minh City",
+      "email_value": "caotancong2003@gmail.com"
+    },
+    "download_cv": "Download CV"
   },
   "skills": {
     "section_title": "Skills",
@@ -35,7 +47,7 @@
       "frontend": "Frontend",
       "backend": "Backend",
       "database": "Database",
-      "tools": "Tools & Others"
+      "tools": "Desktop & Mobile"
     }
   },
   "projects": {
@@ -45,41 +57,53 @@
     "live_demo": "Live Demo",
     "items": {
       "project1": {
-        "title": "E-Commerce Platform",
-        "description": "A full-stack e-commerce solution built with Next.js, Node.js, and MongoDB. Features include authentication, payment integration, and admin dashboard."
+        "title": "Phone & Laptop Sales App",
+        "description": "Mobile e-commerce app for buying phones and laptops, built with Android Java, MySQL, PHP API, and Firebase for real-time features."
       },
       "project2": {
-        "title": "Task Management App",
-        "description": "A real-time collaborative task management application built with React, Socket.io, and PostgreSQL."
+        "title": "Mobile Phone Sales Website",
+        "description": "Full-featured e-commerce website for selling mobile phones, built with PHP and MySQL."
       },
       "project3": {
-        "title": "AI Chat Interface",
-        "description": "A modern chat interface powered by OpenAI API with streaming responses, conversation history, and multi-model support."
+        "title": "Restaurant Management Software",
+        "description": "Desktop application for managing restaurant operations including orders, tables, and reporting, built with Java Swing and SQL Server."
+      },
+      "project4": {
+        "title": "Phone & Accessories Store Website",
+        "description": "E-commerce website for phones and accessories with admin dashboard, built with ASP.NET MVC and SQL Server."
+      },
+      "project5": {
+        "title": "Restaurant POS Software (Dev Express)",
+        "description": "Advanced restaurant management software featuring rich UI components powered by Dev Express, built with .NET WinForms and SQL Server."
+      },
+      "project6": {
+        "title": "Shopee-like Web UI",
+        "description": "Responsive front-end UI inspired by Shopee e-commerce platform, built with HTML, CSS, JavaScript, and Bootstrap."
       }
     }
   },
   "experience": {
     "section_title": "Experience",
-    "section_subtitle": "My professional journey",
+    "section_subtitle": "My project journey",
     "present": "Present",
     "items": {
       "job1": {
-        "title": "Senior Full Stack Developer",
-        "company": "Tech Company",
-        "period": "2023 - Present",
-        "description": "Led development of microservices architecture, mentored junior developers, and improved application performance by 40%."
+        "title": "Full Stack Web & Mobile Developer",
+        "company": "Academic Projects — HUIT",
+        "period": "02/2024 - 06/2024",
+        "description": "Developed a full-stack mobile app (Android, Firebase, PHP API) and a PHP/MySQL e-commerce website, plus a Java Swing restaurant management desktop app."
       },
       "job2": {
-        "title": "Full Stack Developer",
-        "company": "Startup Inc.",
-        "period": "2021 - 2023",
-        "description": "Built and maintained multiple client-facing web applications using React, Node.js, and cloud services."
+        "title": "ASP.NET & Desktop Developer",
+        "company": "Academic Projects — HUIT",
+        "period": "08/2023 - 12/2023",
+        "description": "Built an ASP.NET MVC e-commerce site for phones & accessories and a .NET WinForms restaurant POS system with Dev Express components and SQL Server."
       },
       "job3": {
         "title": "Frontend Developer",
-        "company": "Agency XYZ",
-        "period": "2020 - 2021",
-        "description": "Developed responsive websites and web applications for various clients across different industries."
+        "company": "Self-learning",
+        "period": "2023",
+        "description": "Designed and built responsive web layouts using HTML, CSS, JavaScript, and Bootstrap, sharpening front-end fundamentals."
       }
     }
   },
@@ -88,23 +112,35 @@
     "section_subtitle": "My academic background",
     "items": {
       "edu1": {
-        "degree": "Bachelor of Computer Science",
-        "school": "University of Technology",
-        "period": "2016 - 2020",
-        "description": "Specialized in Software Engineering and Artificial Intelligence. Graduated with honors."
+        "degree": "IT — Software Engineering",
+        "school": "Ho Chi Minh City University of Industry and Trade (HUIT)",
+        "period": "2021 - Present",
+        "description": "Studying Information Technology with a focus on software engineering, web development, and mobile application development."
       },
       "edu2": {
-        "degree": "AWS Certified Developer",
-        "school": "Amazon Web Services",
-        "period": "2022",
-        "description": "Professional certification in cloud development and architecture."
+        "degree": "High School Diploma",
+        "school": "Cai Be High School",
+        "period": "2018 - 2021",
+        "description": "Completed general education with strong results in mathematics and natural sciences."
+      },
+      "edu3": {
+        "degree": "Junior High School",
+        "school": "Hoa Khanh Secondary School",
+        "period": "2014 - 2018",
+        "description": "Completed lower secondary education program."
+      },
+      "edu4": {
+        "degree": "Primary School",
+        "school": "Hoa Khanh B Primary School",
+        "period": "2010 - 2014",
+        "description": "Completed primary education program."
       }
     }
   },
   "contact": {
     "section_title": "Contact",
     "section_subtitle": "Get in touch",
-    "description": "Have a project in mind or want to work together? Feel free to reach out!",
+    "description": "Hello and thank you for visiting my personal website. Feel free to reach out for collaboration or any project ideas!",
     "form": {
       "name": "Your Name",
       "email": "Your Email",
@@ -118,7 +154,15 @@
     "info": {
       "email": "Email",
       "location": "Location",
+      "phone": "Phone",
       "availability": "Availability"
+    },
+    "details": {
+      "email": "caotancong2003@gmail.com",
+      "location": "17B Tan Tru, Ward 15, Tan Binh, Ho Chi Minh City",
+      "phone": "0362 111 265",
+      "github": "https://github.com/CongCaoIT/",
+      "facebook": "https://www.facebook.com/profile.php?id=100023409287674"
     }
   },
   "footer": {

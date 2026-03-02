@@ -22,7 +22,7 @@ export function Footer() {
         {t("made_with")}
         <Heart size={14} className="text-red-500 fill-red-500" />
         {t("by")}
-        <span className="font-medium gradient-text">Your Name</span>
+        <span className="font-medium gradient-text">Cao Tan Cong</span>
         &mdash; &copy; {year} {t("rights")}
       </p>
     </footer>

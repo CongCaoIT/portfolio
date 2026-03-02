@@ -10,76 +10,100 @@
   },
   "hero": {
     "greeting": "Xin chào, tôi là",
-    "name": "Tên Của Bạn",
-    "title": "Lập Trình Viên Full Stack",
-    "subtitle": "Tôi xây dựng các ứng dụng web hiện đại, hiệu suất cao với mã nguồn sạch và trải nghiệm người dùng tuyệt vời.",
+    "name": "Cao Tấn Công",
+    "title": "Lập Trình Viên Phần Mềm",
+    "roles": ["Software", "Developer", "Intern", "Freelancer"],
+    "subtitle": "Với niềm đam mê mãnh liệt đối với công nghệ, tôi luôn khao khát biến những kiến thức lý thuyết thành những giải pháp thực tiễn hữu ích. Tôi đã tích lũy kinh nghiệm trong việc phát triển các ứng dụng Web và Android.",
     "cta_projects": "Xem Dự Án",
     "cta_contact": "Liên Hệ",
     "available": "Đang tìm kiếm cơ hội"
   },
   "about": {
     "section_title": "Giới Thiệu",
-    "description1": "Tôi là một Lập Trình Viên Full Stack đam mê với hơn 3 năm kinh nghiệm xây dựng ứng dụng web. Tôi thích biến những vấn đề phức tạp thành các giải pháp đơn giản, đẹp và trực quan.",
-    "description2": "Khi không lập trình, bạn có thể thấy tôi khám phá các công nghệ mới, đóng góp cho mã nguồn mở, hoặc tận hưởng thiên nhiên.",
+    "description1": "Sinh viên Công nghệ Thông tin, tôi sẵn sàng bước vào thế giới thực và đóng góp vào lĩnh vực công nghệ với niềm đam mê sâu sắc. Tôi luôn khát khao áp dụng những kiến thức mới nhất để tạo ra những giải pháp sáng tạo và thực tiễn.",
+    "description2": "Tôi có kỹ năng vững vàng trong nhiều ngôn ngữ lập trình như Java, PHP, C# cũng như kinh nghiệm làm việc với các framework hiện đại. Tôi luôn chú trọng đến việc viết mã nguồn sạch, dễ bảo trì và tuân thủ các nguyên tắc thiết kế phần mềm.",
     "stats": {
       "years": "Năm Kinh Nghiệm",
-      "projects": "Dự Án Hoàn Thành",
-      "clients": "Khách Hàng Hài Lòng",
+      "projects": "Dự Án Học Tập",
+      "clients": "Giờ Lập Trình",
       "tech": "Công Nghệ"
-    }
+    },
+    "info": {
+      "name": "Họ tên",
+      "dob": "Ngày sinh",
+      "address": "Địa chỉ",
+      "email": "Email",
+      "name_value": "Cao Tấn Công",
+      "dob_value": "26/10/2003",
+      "address_value": "Tân Bình, Hồ Chí Minh",
+      "email_value": "caotancong2003@gmail.com"
+    },
+    "download_cv": "Tải CV"
   },
   "skills": {
     "section_title": "Kỹ Năng",
-    "section_subtitle": "Các công nghệ tôi làm việc",
+    "section_subtitle": "Lĩnh vực - Chuyên môn",
     "categories": {
       "frontend": "Frontend",
       "backend": "Backend",
       "database": "Cơ Sở Dữ Liệu",
-      "tools": "Công Cụ & Khác"
+      "tools": "Desktop & Di Động"
     }
   },
   "projects": {
     "section_title": "Dự Án",
-    "section_subtitle": "Một số dự án gần đây của tôi",
+    "section_subtitle": "Một số dự án gần nhất",
     "view_code": "Xem Code",
     "live_demo": "Xem Demo",
     "items": {
       "project1": {
-        "title": "Nền Tảng Thương Mại Điện Tử",
-        "description": "Giải pháp thương mại điện tử full-stack được xây dựng với Next.js, Node.js và MongoDB. Tính năng bao gồm xác thực, tích hợp thanh toán và bảng quản trị."
+        "title": "App Bán Điện Thoại và Laptop",
+        "description": "Ứng dụng thương mại điện tử di động cho phép mua bán điện thoại và laptop, xây dựng bằng Android Java, MySQL, PHP API và Firebase."
       },
       "project2": {
-        "title": "Ứng Dụng Quản Lý Công Việc",
-        "description": "Ứng dụng quản lý công việc cộng tác theo thời gian thực được xây dựng với React, Socket.io và PostgreSQL."
+        "title": "Web Bán Điện Thoại Di Động",
+        "description": "Website thương mại điện tử đầy đủ tính năng để bán điện thoại di động, được xây dựng bằng PHP và MySQL."
       },
       "project3": {
-        "title": "Giao Diện Chat AI",
-        "description": "Giao diện chat hiện đại được hỗ trợ bởi OpenAI API với phản hồi streaming, lịch sử hội thoại và hỗ trợ đa mô hình."
+        "title": "Phần Mềm Quản Lý Nhà Hàng",
+        "description": "Ứng dụng desktop quản lý hoạt động nhà hàng bao gồm đơn hàng, bàn ăn và báo cáo, xây dựng bằng Java Swing và SQL Server."
+      },
+      "project4": {
+        "title": "Web Bán Điện Thoại và Phụ Kiện",
+        "description": "Website thương mại điện tử cho điện thoại và phụ kiện kèm trang quản trị, được xây dựng bằng ASP.NET MVC và SQL Server."
+      },
+      "project5": {
+        "title": "Phần Mềm Quản Lý Quán Ăn Dev Express",
+        "description": "Phần mềm quản lý quán ăn nâng cao với giao diện phong phú sử dụng Dev Express, xây dựng bằng .NET WinForms và SQL Server."
+      },
+      "project6": {
+        "title": "Giao Diện Web Shopee",
+        "description": "Giao diện front-end responsive lấy cảm hứng từ nền tảng thương mại điện tử Shopee, xây dựng bằng HTML, CSS, JavaScript và Bootstrap."
       }
     }
   },
   "experience": {
     "section_title": "Kinh Nghiệm",
-    "section_subtitle": "Hành trình nghề nghiệp của tôi",
+    "section_subtitle": "Hành trình dự án của tôi",
     "present": "Hiện tại",
     "items": {
       "job1": {
-        "title": "Lập Trình Viên Full Stack Cao Cấp",
-        "company": "Công Ty Công Nghệ",
-        "period": "2023 - Hiện tại",
-        "description": "Dẫn dắt phát triển kiến trúc microservices, hướng dẫn lập trình viên junior và cải thiện hiệu suất ứng dụng lên 40%."
+        "title": "Lập Trình Viên Web & Mobile",
+        "company": "Dự Án Học Tập — HUIT",
+        "period": "02/2024 - 06/2024",
+        "description": "Phát triển ứng dụng di động full-stack (Android, Firebase, PHP API) và website thương mại điện tử PHP/MySQL, cùng phần mềm quản lý nhà hàng Java Swing."
       },
       "job2": {
-        "title": "Lập Trình Viên Full Stack",
-        "company": "Startup Inc.",
-        "period": "2021 - 2023",
-        "description": "Xây dựng và duy trì nhiều ứng dụng web hướng tới khách hàng bằng React, Node.js và các dịch vụ đám mây."
+        "title": "Lập Trình Viên ASP.NET & Desktop",
+        "company": "Dự Án Học Tập — HUIT",
+        "period": "08/2023 - 12/2023",
+        "description": "Xây dựng website thương mại điện tử ASP.NET MVC và hệ thống POS nhà hàng bằng .NET WinForms với Dev Express và SQL Server."
       },
       "job3": {
         "title": "Lập Trình Viên Frontend",
-        "company": "Agency XYZ",
-        "period": "2020 - 2021",
-        "description": "Phát triển các trang web và ứng dụng web responsive cho nhiều khách hàng trong các ngành khác nhau."
+        "company": "Tự học",
+        "period": "2023",
+        "description": "Thiết kế và xây dựng các giao diện web responsive sử dụng HTML, CSS, JavaScript và Bootstrap."
       }
     }
   },
@@ -88,27 +112,39 @@
     "section_subtitle": "Nền tảng học thuật của tôi",
     "items": {
       "edu1": {
-        "degree": "Cử Nhân Khoa Học Máy Tính",
-        "school": "Đại Học Công Nghệ",
-        "period": "2016 - 2020",
-        "description": "Chuyên ngành Kỹ thuật Phần mềm và Trí tuệ Nhân tạo. Tốt nghiệp loại giỏi."
+        "degree": "CNTT — Công Nghệ Phần Mềm",
+        "school": "Trường Đại học Công Thương TP. Hồ Chí Minh (HUIT)",
+        "period": "2021 - Hiện nay",
+        "description": "Chuyên ngành Công nghệ Thông tin, tập trung vào kỹ thuật phần mềm, phát triển web và ứng dụng di động."
       },
       "edu2": {
-        "degree": "AWS Certified Developer",
-        "school": "Amazon Web Services",
-        "period": "2022",
-        "description": "Chứng chỉ chuyên nghiệp về phát triển và kiến trúc đám mây."
+        "degree": "Trung Học Phổ Thông",
+        "school": "Trường THPT Cái Bè",
+        "period": "2018 - 2021",
+        "description": "Hoàn thành chương trình giáo dục phổ thông với kết quả tốt ở các môn Toán và Khoa học tự nhiên."
+      },
+      "edu3": {
+        "degree": "Trung Học Cơ Sở",
+        "school": "Trường THCS Hòa Khánh",
+        "period": "2014 - 2018",
+        "description": "Hoàn thành chương trình giáo dục trung học cơ sở."
+      },
+      "edu4": {
+        "degree": "Tiểu Học",
+        "school": "Trường Tiểu Học B Hòa Khánh",
+        "period": "2010 - 2014",
+        "description": "Hoàn thành chương trình giáo dục tiểu học."
       }
     }
   },
   "contact": {
     "section_title": "Liên Hệ",
     "section_subtitle": "Liên lạc với tôi",
-    "description": "Bạn có dự án trong đầu hoặc muốn hợp tác? Hãy liên hệ với tôi!",
+    "description": "Xin chào và cảm ơn bạn đã ghé thăm trang web cá nhân của tôi. Hãy liên hệ nếu bạn muốn hợp tác hoặc có ý tưởng dự án!",
     "form": {
       "name": "Tên của bạn",
       "email": "Email của bạn",
-      "subject": "Tiêu đề",
+      "subject": "Chủ đề",
       "message": "Nội dung tin nhắn",
       "send": "Gửi Tin Nhắn",
       "sending": "Đang gửi...",
@@ -117,8 +153,16 @@
     },
     "info": {
       "email": "Email",
-      "location": "Địa Điểm",
+      "location": "Địa Chỉ",
+      "phone": "Điện Thoại",
       "availability": "Tình Trạng"
+    },
+    "details": {
+      "email": "caotancong2003@gmail.com",
+      "location": "17B Tân Trụ, P.15, Tân Bình, Hồ Chí Minh",
+      "phone": "0362 111 265",
+      "github": "https://github.com/CongCaoIT/",
+      "facebook": "https://www.facebook.com/profile.php?id=100023409287674"
     }
   },
   "footer": {

@@ -95,7 +95,7 @@ export function Logo({
           className={cn("font-semibold tracking-widest uppercase", s.title)}
           style={{ color: "var(--muted-foreground)" }}
         >
-          Full Stack Developer
+          Software Developer
         </span>
       </div>
     ) : (
@@ -116,7 +116,7 @@ export function Logo({
           className={cn("font-semibold tracking-widest uppercase", s.title)}
           style={{ color: "var(--muted-foreground)" }}
         >
-          Full Stack Developer
+          Software Developer
         </span>
       </div>
     );
@@ -139,7 +139,7 @@ export function Logo({
       <button
         onClick={onClick}
         className={cn("cursor-pointer focus:outline-none group", className)}
-        aria-label="CongCao – Full Stack Developer"
+        aria-label="CongCao – Software Developer"
       >
         {inner}
       </button>
@@ -152,7 +152,7 @@ export function Logo({
       whileTap={{ scale: 0.97 }}
       onClick={onClick}
       className={cn("cursor-pointer focus:outline-none group", className)}
-      aria-label="CongCao – Full Stack Developer"
+      aria-label="CongCao – Software Developer"
     >
       {inner}
     </motion.button>

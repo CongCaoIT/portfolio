@@ -51,24 +51,27 @@ export function Logo({
         s.badge
       )}
       style={{
-        background: "linear-gradient(145deg, #0369a1 0%, #0ea5e9 55%, #38bdf8 100%)",
-        boxShadow: "0 0 0 1.5px #38bdf860, 0 4px 18px #0ea5e970, 0 1px 4px #0284c7aa",
+        background: "linear-gradient(145deg, #0c4a6e 0%, #0369a1 30%, #0ea5e9 65%, #7dd3fc 100%)",
+        boxShadow:
+          "0 0 0 2px #38bdf880, 0 4px 24px #0ea5e9aa, 0 1px 6px #0284c7cc, inset 0 1px 0 rgba(255,255,255,0.15)",
       }}
     >
       {/* top-edge gloss line */}
       <div
         className="absolute inset-0 rounded-xl"
         style={{
-          background: "linear-gradient(180deg, rgba(255,255,255,0.22) 0%, transparent 55%)",
+          background: "linear-gradient(180deg, rgba(255,255,255,0.30) 0%, transparent 50%)",
         }}
       />
       <span
         className="relative z-10 font-black text-white"
         style={{
+          fontFamily: "'Cinzel Decorative', serif",
           letterSpacing: "0.04em",
           fontSize: "1.05em",
+          paddingTop: "0.4em",
           textShadow:
-            "0 1px 0 rgba(0,0,0,0.25), 0 0 10px rgba(255,255,255,0.55), 0 0 22px #38bdf8cc",
+            "0 1px 0 rgba(0,0,0,0.35), 0 0 8px rgba(255,255,255,0.9), 0 0 20px #ffffff, 0 0 36px #7dd3fccc",
         }}
       >
         TC

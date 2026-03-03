@@ -20,12 +20,33 @@ export function Navbar() {
   const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
   const [mounted, setMounted] = useState(false);
+  const [activeSection, setActiveSection] = useState<string>("");
 
   useEffect(() => {
     setMounted(true);
     const handleScroll = () => setScrolled(window.scrollY > 20);
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
+  useEffect(() => {
+    const observers: IntersectionObserver[] = [];
+    const sectionIds = ["hero", ...navItems];
+
+    sectionIds.forEach((id) => {
+      const el = document.getElementById(id);
+      if (!el) return;
+      const observer = new IntersectionObserver(
+        ([entry]) => {
+          if (entry.isIntersecting) setActiveSection(id);
+        },
+        { rootMargin: "-40% 0px -55% 0px", threshold: 0 }
+      );
+      observer.observe(el);
+      observers.push(observer);
+    });
+
+    return () => observers.forEach((o) => o.disconnect());
   }, []);
 
   const switchLocale = () => {
@@ -69,10 +90,21 @@ export function Navbar() {
             <li key={item}>
               <button
                 onClick={() => scrollTo(item)}
-                className="text-sm font-medium transition-colors hover:opacity-100 opacity-70 cursor-pointer"
-                style={{ color: "var(--foreground)" }}
+                className="relative text-sm font-medium transition-all duration-200 cursor-pointer"
+                style={{
+                  color: activeSection === item ? "var(--primary)" : "var(--foreground)",
+                  opacity: activeSection === item ? 1 : 0.6,
+                }}
               >
                 {t(item)}
+                {activeSection === item && (
+                  <motion.span
+                    layoutId="nav-underline"
+                    className="absolute -bottom-1 left-0 right-0 h-0.5 rounded-full"
+                    style={{ background: "var(--primary)" }}
+                    transition={{ type: "spring", stiffness: 380, damping: 30 }}
+                  />
+                )}
               </button>
             </li>
           ))}
@@ -140,8 +172,15 @@ export function Navbar() {
                 <li key={item}>
                   <button
                     onClick={() => scrollTo(item)}
-                    className="w-full text-left py-2 px-3 rounded-lg text-sm font-medium transition-colors hover:opacity-80"
-                    style={{ color: "var(--foreground)" }}
+                    className="w-full text-left py-2 px-3 rounded-lg text-sm font-medium transition-all duration-200"
+                    style={{
+                      color: activeSection === item ? "var(--primary)" : "var(--foreground)",
+                      background:
+                        activeSection === item
+                          ? "color-mix(in srgb, var(--primary) 10%, transparent)"
+                          : "transparent",
+                      fontWeight: activeSection === item ? 700 : 500,
+                    }}
                   >
                     {t(item)}
                   </button>

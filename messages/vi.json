@@ -20,8 +20,8 @@
   },
   "about": {
     "section_title": "Giới Thiệu",
-    "description1": "Sinh viên Công nghệ Thông tin, tôi sẵn sàng bước vào thế giới thực và đóng góp vào lĩnh vực công nghệ với niềm đam mê sâu sắc. Tôi luôn khát khao áp dụng những kiến thức mới nhất để tạo ra những giải pháp sáng tạo và thực tiễn.",
-    "description2": "Tôi có kỹ năng vững vàng trong nhiều ngôn ngữ lập trình như Java, PHP, C# cũng như kinh nghiệm làm việc với các framework hiện đại. Tôi luôn chú trọng đến việc viết mã nguồn sạch, dễ bảo trì và tuân thủ các nguyên tắc thiết kế phần mềm.",
+    "description1": "Mang tâm thế của một thế hệ công nghệ mới, sẵn sàng dấn thân và cống hiến vào dòng chảy đổi mới toàn cầu. Luôn tiên phong khai phá những tri thức tiên phong để chuyển hóa ý tưởng thành các giải pháp thực tiễn, mang tính đột phá và tạo ra giá trị thực cho cộng đồng.",
+    "description2": "Làm chủ tư duy lập trình đa nền tảng cùng khả năng vận hành linh hoạt trên các framework hiện đại. Đề cao triết lý mã nguồn tinh gọn (Clean Code), cấu trúc bền vững và chuẩn mực hóa các nguyên tắc thiết kế hệ thống, đảm bảo mọi sản phẩm số luôn đạt độ ổn định tối ưu và khả năng mở rộng không giới hạn.",
     "stats": {
       "years": "Năm Kinh Nghiệm",
       "projects": "Dự Án Học Tập",
@@ -33,10 +33,12 @@
       "dob": "Ngày sinh",
       "address": "Địa chỉ",
       "email": "Email",
+      "phone": "Điện Thoại",
       "name_value": "Cao Tấn Công",
       "dob_value": "26/10/2003",
       "address_value": "Tân Bình, Hồ Chí Minh",
-      "email_value": "caotancong2003@gmail.com"
+      "email_value": "caotancong2003@gmail.com",
+      "phone_value": "0362 111 265"
     },
     "download_cv": "Tải CV"
   },

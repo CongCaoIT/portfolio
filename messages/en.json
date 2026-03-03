@@ -20,8 +20,8 @@
   },
   "about": {
     "section_title": "About Me",
-    "description1": "I'm an Information Technology student passionate about software development. I'm eager to enter the real world and contribute to the technology field, always striving to apply the latest knowledge to create innovative and practical solutions.",
-    "description2": "I have strong skills in Java, PHP, C# and experience with modern frameworks. I focus on writing clean, maintainable code and following software design principles. With a continuous learning spirit, I am committed to delivering high-quality software products.",
+    "description1": "Carrying the mindset of a new tech generation, ready to dive in and contribute to the wave of global innovation. Always pioneering the exploration of cutting-edge knowledge to transform ideas into practical, breakthrough solutions that create real value for the community.",
+    "description2": "Mastering multi-platform programming thinking with the ability to operate flexibly across modern frameworks. Championing the philosophy of Clean Code, sustainable architecture, and standardized system design principles — ensuring every digital product achieves optimal stability and unlimited scalability.",
     "stats": {
       "years": "Year Experience",
       "projects": "Academic Projects",
@@ -33,10 +33,12 @@
       "dob": "Date of Birth",
       "address": "Address",
       "email": "Email",
+      "phone": "Phone",
       "name_value": "Cao Tan Cong",
       "dob_value": "26/10/2003",
       "address_value": "Tan Binh, Ho Chi Minh City",
-      "email_value": "caotancong2003@gmail.com"
+      "email_value": "caotancong2003@gmail.com",
+      "phone_value": "0362 111 265"
     },
     "download_cv": "Download CV"
   },

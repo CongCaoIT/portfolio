@@ -12,11 +12,11 @@
     "greeting": "Hi, I'm",
     "name": "Cao Tan Cong",
     "title": "Software Developer",
-    "roles": ["Software", "Developer", "Intern", "Freelancer"],
-    "subtitle": "Passionate about technology, I love turning theoretical knowledge into practical solutions. I have experience developing Web and Android applications, always learning from new challenges.",
+    "roles": ["Software", "Developer", "Web & Mobile", "Freelancer"],
+    "subtitle": "Born from a burning desire to conquer the boundless digital world. It is a relentless journey — stepping beyond dry theory to bring real-world experiences to life. Not content with building isolated apps, the ultimate goal is to architect sustainable digital ecosystems — where every line of code helps redefine how people interact, connect, and thrive alongside technology every day.",
     "cta_projects": "View Projects",
     "cta_contact": "Contact Me",
-    "available": "Open to opportunities"
+    "available": "Always learning, never stop growing"
   },
   "about": {
     "section_title": "About Me",

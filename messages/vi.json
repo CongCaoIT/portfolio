@@ -12,11 +12,11 @@
     "greeting": "Xin chào, tôi là",
     "name": "Cao Tấn Công",
     "title": "Lập Trình Viên Phần Mềm",
-    "roles": ["Software", "Developer", "Intern", "Freelancer"],
-    "subtitle": "Với niềm đam mê mãnh liệt đối với công nghệ, tôi luôn khao khát biến những kiến thức lý thuyết thành những giải pháp thực tiễn hữu ích. Tôi đã tích lũy kinh nghiệm trong việc phát triển các ứng dụng Web và Android.",
+    "roles": ["Software", "Developer", "Web & Mobile", "Freelancer"],
+    "subtitle": "Khởi nguồn từ khao khát chinh phục thế giới số vô tận. Đó là một hành trình không ngừng nghỉ, bước ra khỏi những trang lý thuyết khô khan để hiện thực hóa những trải nghiệm thực thụ mang hơi thở cuộc sống. Không dừng lại ở việc phát triển những ứng dụng đơn lẻ, mục tiêu tối thượng là kiến tạo nên những hệ sinh thái số bền vững — nơi mỗi dòng code đều góp phần tái định nghĩa cách con người tương tác, kết nối và vận hành cùng công nghệ mỗi ngày.",
     "cta_projects": "Xem Dự Án",
     "cta_contact": "Liên Hệ",
-    "available": "Đang tìm kiếm cơ hội"
+    "available": "Luôn học hỏi, không ngừng phát triển"
   },
   "about": {
     "section_title": "Giới Thiệu",

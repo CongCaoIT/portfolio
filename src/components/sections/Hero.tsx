@@ -25,7 +25,7 @@ export function Hero() {
   return (
     <section
       id="hero"
-      className="min-h-screen flex items-center justify-center relative overflow-hidden px-4"
+      className="min-h-screen flex items-center justify-center relative overflow-hidden px-4 pt-20"
     >
       {/* Background grid */}
       <div
@@ -99,7 +99,7 @@ export function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.2 }}
-          className="text-5xl md:text-7xl font-bold mb-4 gradient-text"
+          className="text-5xl md:text-7xl font-bold mb-4 pb-2 gradient-text"
         >
           {t("name")}
         </motion.h1>
@@ -131,7 +131,7 @@ export function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.4 }}
-          className="text-base md:text-lg max-w-2xl mx-auto mb-10 leading-relaxed"
+          className="text-sm md:text-base max-w-xl mx-auto mb-10 leading-relaxed text-center"
           style={{ color: "var(--muted-foreground)" }}
         >
           {t("subtitle")}

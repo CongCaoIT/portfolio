@@ -7,18 +7,34 @@ import { useRef } from "react";
 
 const skillsData = {
   frontend: [
-    { name: "HTML / CSS", level: 70 },
-    { name: "JavaScript", level: 50 },
+    { name: "HTML / CSS", level: 75 },
+    { name: "JavaScript", level: 75 },
+    { name: "ReactJS", level: 85 },
+    { name: "NextJS", level: 90 },
   ],
   backend: [
     { name: "PHP", level: 90 },
-    { name: "ASP .NET MVC", level: 85 },
-    { name: "Android Java", level: 80 },
+    { name: "Laravel", level: 85 },
+    { name: "ASP .NET MVC", level: 80 },
+    { name: "ExpressJS", level: 80 },
+    { name: "NestJS", level: 85 },
+    { name: "Python", level: 70 },
   ],
-  database: [{ name: "SQL Server / MySQL", level: 85 }],
+  database: [
+    { name: "SQL Server / MySQL", level: 85 },
+    { name: "NoSQL (MongoDB)", level: 70 },
+  ],
   tools: [
-    { name: ".NET WinForms", level: 90 },
-    { name: "Java Swing", level: 80 },
+    { name: "Android Java", level: 80 },
+    { name: "React Native", level: 70 },
+    { name: ".NET WinForms", level: 80 },
+    { name: "Java Swing", level: 70 },
+  ],
+  other: [
+    { name: "GitHub", level: 90 },
+    { name: "AI Tools", level: 80 },
+    { name: "Word / Excel", level: 85 },
+    { name: "Canva", level: 80 },
   ],
 };
 

@@ -50,7 +50,8 @@
       "frontend": "Frontend",
       "backend": "Backend",
       "database": "Database",
-      "tools": "Desktop & Mobile"
+      "tools": "Mobile & Desktop",
+      "other": "Tools & Others"
     }
   },
   "projects": {

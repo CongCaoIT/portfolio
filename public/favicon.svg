@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   stop-color="#0c4a6e"/>
+      <stop offset="30%"  stop-color="#0369a1"/>
+      <stop offset="65%"  stop-color="#0ea5e9"/>
+      <stop offset="100%" stop-color="#7dd3fc"/>
+    </linearGradient>
+    <linearGradient id="gloss" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%"   stop-color="rgba(255,255,255,0.30)"/>
+      <stop offset="50%"  stop-color="rgba(255,255,255,0)"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background circle -->
+  <circle cx="24" cy="24" r="23" fill="url(#bg)"/>
+
+  <!-- Gloss overlay -->
+  <circle cx="24" cy="24" r="23" fill="url(#gloss)"/>
+
+  <!-- TC text -->
+  <text
+    x="24"
+    y="31"
+    text-anchor="middle"
+    font-family="Georgia, serif"
+    font-weight="900"
+    font-size="19"
+    fill="white"
+    filter="url(#glow)"
+    letter-spacing="1"
+  >TC</text>
+</svg>

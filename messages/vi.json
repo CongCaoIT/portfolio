@@ -41,7 +41,15 @@
       "email_value": "caotancong2003@gmail.com",
       "phone_value": "0362 111 265"
     },
-    "download_cv": "Tải CV"
+    "download_cv": "Tải CV",
+    "hobbies_title": "Sở Thích",
+    "hobbies": {
+      "badminton": "Cầu Lông",
+      "gaming": "Game",
+      "music": "Nghe Nhạc",
+      "anime": "Anime",
+      "tech": "Học Hỏi Công Nghệ"
+    }
   },
   "skills": {
     "section_title": "Kỹ Năng",

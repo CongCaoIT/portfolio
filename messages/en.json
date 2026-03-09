@@ -41,7 +41,15 @@
       "email_value": "caotancong2003@gmail.com",
       "phone_value": "0362 111 265"
     },
-    "download_cv": "Download CV"
+    "download_cv": "Download CV",
+    "hobbies_title": "Hobbies",
+    "hobbies": {
+      "badminton": "Badminton",
+      "gaming": "Gaming",
+      "music": "Music",
+      "anime": "Anime",
+      "tech": "Tech Enthusiast"
+    }
   },
   "skills": {
     "section_title": "Skills",

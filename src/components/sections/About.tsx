@@ -1,10 +1,24 @@
 "use client";
 
+import React, { useRef } from "react";
 import { useTranslations } from "next-intl";
 import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
-import { useRef } from "react";
-import { Code2, Users, Briefcase, Cpu, MapPin, Mail, Calendar, Phone } from "lucide-react";
+import {
+  Code2,
+  Users,
+  Briefcase,
+  Cpu,
+  MapPin,
+  Mail,
+  Calendar,
+  Phone,
+  Activity,
+  Gamepad2,
+  Music,
+  Tv2,
+  Lightbulb,
+} from "lucide-react";
 import Image from "next/image";
 
 const stats = [
@@ -164,6 +178,37 @@ export function About() {
             >
               {t("download_cv")}
             </motion.a>
+
+            {/* Hobbies */}
+            <div>
+              <p className="text-sm font-semibold mb-3" style={{ color: "var(--foreground)" }}>
+                {t("hobbies_title")}
+              </p>
+              <div className="flex flex-wrap gap-2">
+                {(
+                  [
+                    { icon: Activity, label: t("hobbies.badminton") },
+                    { icon: Gamepad2, label: t("hobbies.gaming") },
+                    { icon: Music, label: t("hobbies.music") },
+                    { icon: Tv2, label: t("hobbies.anime") },
+                    { icon: Lightbulb, label: t("hobbies.tech") },
+                  ] as { icon: React.ElementType; label: string }[]
+                ).map(({ icon: Icon, label }) => (
+                  <div
+                    key={label}
+                    className="flex items-center gap-1.5 px-3 py-1.5 rounded-full border text-xs font-medium"
+                    style={{
+                      borderColor: "var(--primary)",
+                      color: "var(--primary)",
+                      background: "color-mix(in srgb, var(--primary) 8%, transparent)",
+                    }}
+                  >
+                    <Icon size={12} />
+                    {label}
+                  </div>
+                ))}
+              </div>
+            </div>
           </motion.div>
         </div>
       </div>

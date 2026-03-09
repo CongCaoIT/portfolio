@@ -25,7 +25,7 @@ export function Hero() {
   return (
     <section
       id="hero"
-      className="min-h-screen flex items-center justify-center relative overflow-hidden px-4 pt-20"
+      className="min-h-screen flex items-center justify-center relative overflow-hidden px-4 sm:px-6 lg:px-8 pt-20"
     >
       {/* Background grid */}
       <div
@@ -47,7 +47,7 @@ export function Hero() {
         style={{ background: "var(--accent)" }}
       />
 
-      <div className="relative z-10 text-center max-w-4xl mx-auto">
+      <div className="relative z-10 text-center w-full max-w-4xl mx-auto">
         {/* Badge */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -88,7 +88,7 @@ export function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.1 }}
-          className="text-lg md:text-xl mb-2"
+          className="text-base sm:text-lg md:text-xl mb-2"
           style={{ color: "var(--muted-foreground)" }}
         >
           {t("greeting")}
@@ -99,7 +99,7 @@ export function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.2 }}
-          className="text-5xl md:text-7xl font-bold mb-4 pb-2 gradient-text"
+          className="text-4xl sm:text-5xl md:text-7xl font-bold mb-4 pb-2 gradient-text"
         >
           {t("name")}
         </motion.h1>
@@ -109,7 +109,7 @@ export function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.3 }}
-          className="text-2xl md:text-3xl font-semibold mb-6 flex items-center justify-center gap-2"
+          className="text-xl sm:text-2xl md:text-3xl font-semibold mb-6 flex items-center justify-center gap-2"
           style={{ color: "var(--foreground)" }}
         >
           <AnimatePresence mode="wait">
@@ -127,15 +127,25 @@ export function Hero() {
         </motion.h2>
 
         {/* Subtitle */}
-        <motion.p
+        <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.4 }}
-          className="text-sm md:text-base max-w-xl mx-auto mb-10 leading-relaxed text-center"
-          style={{ color: "var(--muted-foreground)" }}
+          className="w-full max-w-3xl mx-auto mb-10 space-y-3 text-center px-2 sm:px-0"
         >
-          {t("subtitle")}
-        </motion.p>
+          <p
+            className="text-sm md:text-base leading-relaxed"
+            style={{ color: "var(--muted-foreground)" }}
+          >
+            {t("subtitle")}
+          </p>
+          <p
+            className="text-sm md:text-base leading-relaxed"
+            style={{ color: "var(--muted-foreground)" }}
+          >
+            {t("subtitle2")}
+          </p>
+        </motion.div>
 
         {/* CTA Buttons */}
         <motion.div

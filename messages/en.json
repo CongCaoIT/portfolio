@@ -67,10 +67,52 @@
     "section_subtitle": "Some of my recent work",
     "view_code": "View Code",
     "live_demo": "Live Demo",
+    "view_details": "View Details",
+    "features_title": "Implemented Scope",
     "items": {
       "project1": {
-        "title": "Phone & Laptop Sales App",
-        "description": "Mobile e-commerce app for buying phones and laptops, built with Android Java, MySQL, PHP API, and Firebase for real-time features."
+        "title": "Tafas.vn — Women's Fashion E-commerce",
+        "description": "Parts I directly implemented in Tafas.vn: admin base, website management, product management, and member management. Backend: NestJS — Frontend: Next.js — Database: MySQL.",
+        "details": {
+          "website": {
+            "title": "Website Management",
+            "items": ["Homepage banner management", "News management", "Static page management"]
+          },
+          "system": {
+            "title": "System Configuration",
+            "items": [
+              "Built admin base (layout, menu, module routing)",
+              "Dedicated admin login page",
+              "Basic admin authentication and session handling",
+              "Admin route access control"
+            ]
+          },
+          "products": {
+            "title": "Product Management",
+            "items": [
+              "Product category management",
+              "Product management",
+              "Size chart management",
+              "Collection management"
+            ]
+          },
+          "promotions": {
+            "title": "Promotions & Loyalty",
+            "items": ["Not included in my implementation scope"]
+          },
+          "inventory": {
+            "title": "Inventory Management",
+            "items": ["Not included in my implementation scope"]
+          },
+          "members": {
+            "title": "Member Management",
+            "items": ["Member management", "Permission list management", "Role list management"]
+          },
+          "customers": {
+            "title": "Customer Management",
+            "items": ["Not included in my implementation scope"]
+          }
+        }
       },
       "project2": {
         "title": "Mobile Phone Sales Website",

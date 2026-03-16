@@ -67,10 +67,52 @@
     "section_subtitle": "Một số dự án gần nhất",
     "view_code": "Xem Code",
     "live_demo": "Xem Demo",
+    "view_details": "Xem chi tiết",
+    "features_title": "Hạng mục đã triển khai",
     "items": {
       "project1": {
-        "title": "App Bán Điện Thoại và Laptop",
-        "description": "Ứng dụng thương mại điện tử di động cho phép mua bán điện thoại và laptop, xây dựng bằng Android Java, MySQL, PHP API và Firebase."
+        "title": "Tafas.vn — TMĐT Thời Trang Nữ",
+        "description": "Các phần tôi trực tiếp triển khai trong dự án Tafas.vn: base admin, quản lý website, quản lý sản phẩm và quản lý thành viên. Backend: NestJS — Frontend: Next.js — CSDL: MySQL.",
+        "details": {
+          "website": {
+            "title": "Quản lý Website",
+            "items": ["Quản lý banner trang chủ", "Quản lý tin tức", "Quản lý trang tĩnh"]
+          },
+          "system": {
+            "title": "Cấu hình hệ thống",
+            "items": [
+              "Xây dựng base trang quản trị (layout, menu, điều hướng module)",
+              "Trang đăng nhập quản trị viên",
+              "Xác thực admin và quản lý session cơ bản",
+              "Giới hạn truy cập trang quản trị"
+            ]
+          },
+          "products": {
+            "title": "Quản lý sản phẩm",
+            "items": [
+              "Quản lý danh mục sản phẩm",
+              "Quản lý sản phẩm",
+              "Quản lý bảng size",
+              "Quản lý bộ sưu tập"
+            ]
+          },
+          "promotions": {
+            "title": "Khuyến mãi & Tích điểm",
+            "items": ["Không bao gồm trong phạm vi tôi triển khai"]
+          },
+          "inventory": {
+            "title": "Quản lý kho",
+            "items": ["Không bao gồm trong phạm vi tôi triển khai"]
+          },
+          "members": {
+            "title": "Quản lý thành viên",
+            "items": ["Quản lý thành viên", "Quản lý danh sách quyền", "Quản lý danh sách vai trò"]
+          },
+          "customers": {
+            "title": "Quản lý khách hàng",
+            "items": ["Không bao gồm trong phạm vi tôi triển khai"]
+          }
+        }
       },
       "project2": {
         "title": "Web Bán Điện Thoại Di Động",

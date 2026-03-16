@@ -115,8 +115,42 @@
         }
       },
       "project2": {
-        "title": "Web Bán Điện Thoại Di Động",
-        "description": "Website thương mại điện tử đầy đủ tính năng để bán điện thoại di động, được xây dựng bằng PHP và MySQL."
+        "title": "SmartMath",
+        "description": "Dự án SmartMath xây dựng bằng ReactJS và ExpressJS. Phần tôi thực hiện tập trung vào dựng trang quản trị, quản lý học sinh và quản lý giáo viên.",
+        "details": {
+          "website": {
+            "title": "Trang quản trị",
+            "items": [
+              "Dựng giao diện trang quản trị cho hệ thống SmartMath",
+              "Thiết kế layout, sidebar và điều hướng giữa các module",
+              "Tổ chức cấu trúc trang theo hướng dễ mở rộng"
+            ]
+          },
+          "system": {
+            "title": "Quản lý học sinh",
+            "items": [
+              "Hiển thị danh sách học sinh trên trang quản trị",
+              "Thêm, sửa, xóa thông tin học sinh",
+              "Tìm kiếm và lọc học sinh theo thông tin cơ bản"
+            ]
+          },
+          "products": {
+            "title": "Quản lý giáo viên",
+            "items": [
+              "Hiển thị danh sách giáo viên trên trang quản trị",
+              "Thêm, sửa, xóa thông tin giáo viên",
+              "Quản lý thông tin hồ sơ giáo viên cơ bản"
+            ]
+          },
+          "members": {
+            "title": "Phạm vi công việc",
+            "items": [
+              "Frontend admin pages bằng ReactJS",
+              "API tích hợp với ExpressJS cho nghiệp vụ quản lý",
+              "Hoàn thiện luồng quản lý học sinh và giáo viên"
+            ]
+          }
+        }
       },
       "project3": {
         "title": "Phần Mềm Quản Lý Nhà Hàng",

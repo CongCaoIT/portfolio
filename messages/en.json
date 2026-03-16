@@ -115,8 +115,42 @@
         }
       },
       "project2": {
-        "title": "Mobile Phone Sales Website",
-        "description": "Full-featured e-commerce website for selling mobile phones, built with PHP and MySQL."
+        "title": "SmartMath",
+        "description": "SmartMath project built with ReactJS and ExpressJS. My implementation focused on admin pages, student management, and teacher management.",
+        "details": {
+          "website": {
+            "title": "Admin Pages",
+            "items": [
+              "Built the SmartMath admin interface",
+              "Designed layout, sidebar, and module navigation",
+              "Structured pages for easy future extension"
+            ]
+          },
+          "system": {
+            "title": "Student Management",
+            "items": [
+              "Displayed student list in admin",
+              "Implemented create, update, and delete for student data",
+              "Added basic student search and filtering"
+            ]
+          },
+          "products": {
+            "title": "Teacher Management",
+            "items": [
+              "Displayed teacher list in admin",
+              "Implemented create, update, and delete for teacher data",
+              "Managed core teacher profile information"
+            ]
+          },
+          "members": {
+            "title": "Work Scope",
+            "items": [
+              "Frontend admin pages with ReactJS",
+              "ExpressJS API integration for management flows",
+              "Completed student and teacher management modules"
+            ]
+          }
+        }
       },
       "project3": {
         "title": "Restaurant Management Software",

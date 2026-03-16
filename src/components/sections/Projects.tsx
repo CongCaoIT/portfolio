@@ -40,15 +40,16 @@ const projectsData: {
   {
     key: "project1",
     tags: ["NestJS", "Next.js", "MySQL"],
-    github: "",
+    github: "https://github.com/COVASOL/Clothing.git",
     demo: "https://tafas.vn",
     hasDetails: true,
   },
   {
     key: "project2",
-    tags: ["PHP", "MySQL"],
-    github: "https://github.com/CongCaoIT/",
-    demo: "",
+    tags: ["ReactJS", "ExpressJS", "Node.js"],
+    github: "https://github.com/COVASOL/smartmath.git",
+    demo: "https://smartmath.covasol.io.vn/",
+    hasDetails: true,
   },
   {
     key: "project3",

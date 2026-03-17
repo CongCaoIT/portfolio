@@ -72,7 +72,7 @@
     "items": {
       "project1": {
         "title": "Tafas.vn — TMĐT Thời Trang Nữ",
-        "description": "Các phần tôi trực tiếp triển khai trong dự án Tafas.vn: base admin, quản lý website, quản lý sản phẩm và quản lý thành viên. Backend: NestJS — Frontend: Next.js — CSDL: MySQL.",
+        "description": "Mục đích dự án Tafas.vn là xây dựng hệ thống thương mại điện tử thời trang nữ giúp doanh nghiệp quản lý nội dung website, sản phẩm và thành viên tập trung. Tôi phụ trách nền tảng quản trị (base admin), các module quản lý website, quản lý sản phẩm và quản lý thành viên. Công nghệ sử dụng: NestJS, Next.js và MySQL.",
         "details": {
           "website": {
             "title": "Quản lý Website",
@@ -116,7 +116,7 @@
       },
       "project2": {
         "title": "SmartMath",
-        "description": "Dự án SmartMath xây dựng bằng ReactJS và ExpressJS. Phần tôi thực hiện tập trung vào dựng trang quản trị, quản lý học sinh và quản lý giáo viên.",
+        "description": "Mục đích dự án SmartMath là hỗ trợ trung tâm/lớp học số hóa quy trình quản lý học sinh và giáo viên trên một hệ thống thống nhất. Tôi tập trung xây dựng giao diện trang quản trị, triển khai các chức năng quản lý học sinh, quản lý giáo viên và kết nối API cho các nghiệp vụ chính bằng ReactJS và ExpressJS.",
         "details": {
           "website": {
             "title": "Trang quản trị",
@@ -153,12 +153,68 @@
         }
       },
       "project3": {
-        "title": "Phần Mềm Quản Lý Nhà Hàng",
-        "description": "Ứng dụng desktop quản lý hoạt động nhà hàng bao gồm đơn hàng, bàn ăn và báo cáo, xây dựng bằng Java Swing và SQL Server."
+        "title": "Nền Tảng Quản Lý Vận Tải - Công ty SOF",
+        "description": "Dự án triển khai cho công ty SOF (sof.com.vn): hoàn thành hệ thống vận tải gồm ứng dụng khách hàng đăng đơn có chọn địa chỉ bằng Google Maps API, ứng dụng tài xế tiếp nhận/chỉ đường/hoàn thành chuyến, cùng web quản trị để theo dõi toàn bộ tiến trình vận tải.",
+        "details": {
+          "website": {
+            "title": "App Mobile Khách hàng",
+            "items": [
+              "Tạo đơn hàng vận tải nhanh theo nhu cầu",
+              "Tích hợp Google Maps API để chọn điểm lấy hàng và điểm giao hàng",
+              "Theo dõi trạng thái đơn hàng theo từng giai đoạn",
+              "Xác nhận hoàn tất đơn hàng sau khi giao nhận"
+            ]
+          },
+          "system": {
+            "title": "App Mobile Tài xế",
+            "items": [
+              "Tiếp nhận và xác nhận đơn hàng phù hợp",
+              "Hiển thị đường đi tối ưu và chỉ đường theo lộ trình giao nhận",
+              "Cập nhật tiến trình chuyến đi theo thời gian thực",
+              "Ghi nhận lịch sử di chuyển trong suốt hành trình",
+              "Hoàn thành chuyến và xác nhận bàn giao"
+            ]
+          },
+          "products": {
+            "title": "Web Quản Trị Vận Tải",
+            "items": [
+              "Quản lý danh sách đơn hàng và điều phối chuyến",
+              "Theo dõi tiến trình vận tải tập trung",
+              "Giám sát trạng thái xử lý của khách hàng và tài xế"
+            ]
+          },
+          "members": {
+            "title": "Công Nghệ Sử Dụng",
+            "items": [
+              "React Native cho ứng dụng di động",
+              "Google Maps API cho địa chỉ, lộ trình và định vị",
+              "Web quản trị cho điều phối và quản lý",
+              "Đồng bộ dữ liệu xuyên suốt giữa các vai trò"
+            ]
+          }
+        }
       },
       "project4": {
-        "title": "Web Bán Điện Thoại và Phụ Kiện",
-        "description": "Website thương mại điện tử cho điện thoại và phụ kiện kèm trang quản trị, được xây dựng bằng ASP.NET MVC và SQL Server."
+        "title": "Website Thương mại điện tử TCShop",
+        "description": "Website thương mại điện tử TCShop có thể tùy biến để kinh doanh nhiều loại sản phẩm khác nhau, không giới hạn ở một ngành hàng cụ thể. Hệ thống đi kèm trang quản trị để quản lý sản phẩm, đơn hàng và người dùng. Dự án được xây dựng bằng Laravel 11.",
+        "details": {
+          "website": {
+            "title": "Nền tảng quản trị",
+            "items": ["Xây dựng base trang quản trị", "Quản lý bài viết", "Quản lý đánh giá"]
+          },
+          "system": {
+            "title": "Vận hành đơn hàng",
+            "items": ["Thống kê đơn hàng", "Quản lý khuyến mãi", "Quản lý bảo hành"]
+          },
+          "products": {
+            "title": "Kho & nhà cung cấp",
+            "items": ["Quản lý nhập kho", "Theo dõi lịch sử nhập kho", "Quản lý nhà cung cấp"]
+          },
+          "members": {
+            "title": "Khách hàng",
+            "items": ["Quản lý khách hàng"]
+          }
+        }
       },
       "project5": {
         "title": "Phần Mềm Quản Lý Quán Ăn Dev Express",

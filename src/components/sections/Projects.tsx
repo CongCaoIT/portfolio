@@ -53,15 +53,17 @@ const projectsData: {
   },
   {
     key: "project3",
-    tags: ["Java Swing", "SQL Server"],
+    tags: ["React Native", "Web Admin", "Google Maps API", "Logistics"],
     github: "https://github.com/CongCaoIT/",
-    demo: "",
+    demo: "https://sof.com.vn",
+    hasDetails: true,
   },
   {
     key: "project4",
-    tags: ["ASP.NET MVC", "SQL Server"],
+    tags: ["PHP", "Laravel", "MySQL"],
     github: "https://github.com/CongCaoIT/",
-    demo: "",
+    demo: "https://youtu.be/pMGjSCBlxDY",
+    hasDetails: true,
   },
   {
     key: "project5",

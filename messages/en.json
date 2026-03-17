@@ -72,7 +72,7 @@
     "items": {
       "project1": {
         "title": "Tafas.vn — Women's Fashion E-commerce",
-        "description": "Parts I directly implemented in Tafas.vn: admin base, website management, product management, and member management. Backend: NestJS — Frontend: Next.js — Database: MySQL.",
+        "description": "The goal of Tafas.vn was to build a women's fashion e-commerce platform that helps the business centrally manage website content, products, and members. I was responsible for the admin foundation (base admin), website management modules, product management modules, and member management modules. Tech stack: NestJS, Next.js, and MySQL.",
         "details": {
           "website": {
             "title": "Website Management",
@@ -116,7 +116,7 @@
       },
       "project2": {
         "title": "SmartMath",
-        "description": "SmartMath project built with ReactJS and ExpressJS. My implementation focused on admin pages, student management, and teacher management.",
+        "description": "The goal of SmartMath was to help schools and training centers digitize student and teacher management on a unified platform. I focused on building the admin interface, implementing student and teacher management features, and integrating APIs for core workflows using ReactJS and ExpressJS.",
         "details": {
           "website": {
             "title": "Admin Pages",
@@ -153,12 +153,76 @@
         }
       },
       "project3": {
-        "title": "Restaurant Management Software",
-        "description": "Desktop application for managing restaurant operations including orders, tables, and reporting, built with Java Swing and SQL Server."
+        "title": "Transportation Management Platform - SOF Company",
+        "description": "Project delivered for SOF company (sof.com.vn): completed a transportation platform with a customer mobile app using Google Maps API for address selection, a driver mobile app for order handling, navigation, and trip completion, and a web admin portal to manage end-to-end logistics progress.",
+        "details": {
+          "website": {
+            "title": "Mobile App Customer",
+            "items": [
+              "Created transportation orders based on shipment demand",
+              "Integrated Google Maps API for pickup and delivery address selection",
+              "Tracked order status through each delivery stage",
+              "Confirmed order completion after delivery handoff"
+            ]
+          },
+          "system": {
+            "title": "Mobile App Driver",
+            "items": [
+              "Received and accepted matching delivery orders",
+              "Displayed optimal routes with turn-by-turn navigation support",
+              "Updated trip progress in real time",
+              "Recorded movement history throughout the trip",
+              "Completed trips and confirmed final handoff"
+            ]
+          },
+          "products": {
+            "title": "Web Management Portal",
+            "items": [
+              "Managed orders and dispatch workflow in one place",
+              "Monitored transportation progress across active trips",
+              "Supervised processing status for customers and drivers"
+            ]
+          },
+          "members": {
+            "title": "Technology Stack",
+            "items": [
+              "React Native for mobile applications",
+              "Google Maps API for geocoding, routing, and location tracking",
+              "Web admin system for operation management",
+              "Synchronized data flow across all user roles"
+            ]
+          }
+        }
       },
       "project4": {
-        "title": "Phone & Accessories Store Website",
-        "description": "E-commerce website for phones and accessories with admin dashboard, built with ASP.NET MVC and SQL Server."
+        "title": "TCShop E-commerce Website",
+        "description": "TCShop is a customizable e-commerce website that can be adapted to sell different product categories, without being limited to a specific niche. It includes an admin panel to manage products, orders, and users. The project was built with Laravel 11.",
+        "details": {
+          "website": {
+            "title": "Admin Foundation",
+            "items": [
+              "Built the admin base architecture",
+              "Managed article/content modules",
+              "Managed product review modules"
+            ]
+          },
+          "system": {
+            "title": "Order Operations",
+            "items": ["Order statistics dashboard", "Promotion management", "Warranty management"]
+          },
+          "products": {
+            "title": "Inventory & Suppliers",
+            "items": [
+              "Inventory import management",
+              "Inventory import history tracking",
+              "Supplier management"
+            ]
+          },
+          "members": {
+            "title": "Customers",
+            "items": ["Customer management"]
+          }
+        }
       },
       "project5": {
         "title": "Restaurant POS Software (Dev Express)",

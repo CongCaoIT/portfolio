@@ -15,7 +15,14 @@ import {
   Users,
 } from "lucide-react";
 
-type ProjectKey = "project1" | "project2" | "project3" | "project4" | "project5" | "project6";
+type ProjectKey =
+  | "project1"
+  | "project2"
+  | "project3"
+  | "project4"
+  | "project5"
+  | "project6"
+  | "project7";
 
 const DETAIL_GROUPS = ["website", "system", "products", "members"] as const;
 type DetailGroup = (typeof DETAIL_GROUPS)[number];
@@ -67,12 +74,18 @@ const projectsData: {
   },
   {
     key: "project5",
-    tags: [".NET WinForms", "Dev Express", "SQL Server"],
+    tags: ["ASP.NET MVC", "SQL Server", "Web API"],
     github: "https://github.com/CongCaoIT/",
-    demo: "",
+    demo: "https://youtu.be/lQ-5KG7l-6U?si=OFtVJFlE4VJKicFE",
   },
   {
     key: "project6",
+    tags: [".NET WinForms", "Dev Express", "SQL Server"],
+    github: "https://github.com/CongCaoIT/",
+    demo: "https://youtu.be/v0tdeaFfNL4?si=vpHQ4bSJA4eE9SOZ",
+  },
+  {
+    key: "project7",
     tags: ["HTML", "CSS", "JavaScript", "Bootstrap"],
     github: "https://github.com/CongCaoIT/",
     demo: "",

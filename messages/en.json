@@ -225,10 +225,14 @@
         }
       },
       "project5": {
-        "title": "Restaurant POS Software (Dev Express)",
-        "description": "Advanced restaurant management software featuring rich UI components powered by Dev Express, built with .NET WinForms and SQL Server."
+        "title": "Mobile Phone E-commerce Website",
+        "description": "A mobile phone e-commerce website with an admin panel to manage products, orders, and customers. The project was built with ASP.NET MVC, SQL Server, and Web API."
       },
       "project6": {
+        "title": "Restaurant Management Software (Dev Express)",
+        "description": "A restaurant management desktop application with an advanced interface for daily operations and centralized data handling. The project was built with .NET C# WinForms, Dev Express, and SQL Server."
+      },
+      "project7": {
         "title": "Shopee-like Web UI",
         "description": "Responsive front-end UI inspired by Shopee e-commerce platform, built with HTML, CSS, JavaScript, and Bootstrap."
       }

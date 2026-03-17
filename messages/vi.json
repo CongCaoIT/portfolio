@@ -217,10 +217,14 @@
         }
       },
       "project5": {
-        "title": "Phần Mềm Quản Lý Quán Ăn Dev Express",
-        "description": "Phần mềm quản lý quán ăn nâng cao với giao diện phong phú sử dụng Dev Express, xây dựng bằng .NET WinForms và SQL Server."
+        "title": "Website Bán Điện Thoại Di Động",
+        "description": "Website bán điện thoại di động kèm trang quản trị, hỗ trợ quản lý sản phẩm, đơn hàng và khách hàng. Dự án được xây dựng bằng ASP.NET MVC, SQL Server và Web API."
       },
       "project6": {
+        "title": "Phần Mềm Quản Lý Quán Ăn Dev Express",
+        "description": "Phần mềm quản lý quán ăn với giao diện nâng cao, hỗ trợ vận hành bán hàng và quản lý dữ liệu tập trung. Dự án được xây dựng bằng .NET C# WinForms, Dev Express và SQL Server."
+      },
+      "project7": {
         "title": "Giao Diện Web Shopee",
         "description": "Giao diện front-end responsive lấy cảm hứng từ nền tảng thương mại điện tử Shopee, xây dựng bằng HTML, CSS, JavaScript và Bootstrap."
       }

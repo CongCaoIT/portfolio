@@ -245,7 +245,8 @@
     "items": {
       "job1": {
         "title": "Freelancer - Sales & Project Development",
-        "company": "COVASOL (covasol.com.vn)",
+        "company": "COVASOL",
+        "website": "https://covasol.com.vn/",
         "period": "15/09/2025 - Present",
         "description": "Worked as a freelancer responsible for sales and project development at COVASOL (covasol.com.vn), consulting solutions based on client needs and coordinating delivery progress to ensure both business outcomes and quality execution.",
         "technologies": [
@@ -260,18 +261,48 @@
         ]
       },
       "job2": {
-        "title": "Web & Mobile App Developer",
-        "company": "SOF Co., Ltd. (sof.com.vn)",
+        "title": "Full Stack Web & Mobile Developer",
+        "company": "SOF Co., Ltd.",
+        "website": "https://sof.com.vn/",
         "period": "31/03/2025 - 31/01/2026",
-        "description": "Worked on website and mobile app development for SOF (sof.com.vn), focusing on feature implementation, performance optimization, and stable user experience delivery.",
-        "technologies": ["PHP", "React Native", "MySQL"]
+        "description": "Worked as a Full Stack developer for web and mobile applications at SOF (sof.com.vn), handling frontend, backend, APIs, and database tasks while collaborating with the team to analyze requirements, optimize performance, and deliver a stable user experience.",
+        "technologies": ["PHP", "React Native", "REST API", "MySQL"]
       },
       "job3": {
-        "title": "ASP.NET & Desktop Developer",
+        "title": "Web Development Intern",
+        "company": "VINA Informatics Co., Ltd.",
+        "website": "https://itvina.com/",
+        "period": "07/01/2024 - 31/12/2024",
+        "description": "Interned at VINA Informatics Co., Ltd. as a web developer, contributing to interface and feature development using Laravel and ReactJS.",
+        "technologies": ["Laravel", "ReactJS"]
+      },
+      "job4": {
+        "title": "TCShop E-commerce Website Developer",
+        "company": "TCShop E-commerce Project",
+        "period": "01/07/2024 - 30/11/2024",
+        "description": "Developed the TCShop e-commerce website with an admin panel for managing products, orders, and users; also implemented modules for articles, reviews, promotions, warranty workflows, inventory imports, and supplier management using Laravel 11.",
+        "technologies": ["Laravel 11", "PHP", "MySQL"]
+      },
+      "job5": {
+        "title": "ASP.NET MVC & Desktop Application Developer",
         "company": "Academic Projects — HUIT",
         "period": "08/2023 - 12/2023",
-        "description": "Built an ASP.NET MVC e-commerce site for phones & accessories and a .NET WinForms restaurant POS system with Dev Express components and SQL Server.",
+        "description": "Built a phone and accessories e-commerce website with ASP.NET MVC, and developed a restaurant management desktop application with .NET WinForms, Dev Express, and SQL Server.",
         "technologies": ["ASP.NET MVC", ".NET WinForms", "Dev Express", "SQL Server"]
+      },
+      "job6": {
+        "title": "Mobile Phone E-commerce Website Developer",
+        "company": "Academic Projects — HUIT",
+        "period": "02/2024 - 06/2024",
+        "description": "Developed a mobile phone e-commerce website with core product data management and essential business workflows using PHP and MySQL.",
+        "technologies": ["PHP", "MySQL"]
+      },
+      "job7": {
+        "title": "Android App & Restaurant Management Software Developer",
+        "company": "Academic Projects — HUIT",
+        "period": "02/2024 - 06/2024",
+        "description": "Implemented an Android app for phone and laptop sales integrated with PHP APIs and Firebase, and built a restaurant management software solution using Java and SQL Server.",
+        "technologies": ["Android", "Java", "PHP API", "Firebase", "SQL Server"]
       }
     }
   },

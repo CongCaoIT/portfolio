@@ -237,7 +237,8 @@
     "items": {
       "job1": {
         "title": "Freelancer - Phụ Trách Sale & Phát Triển Dự Án",
-        "company": "COVASOL (covasol.com.vn)",
+        "company": "COVASOL",
+        "website": "https://covasol.com.vn/",
         "period": "15/09/2025 - Hiện tại",
         "description": "Đảm nhiệm vai trò freelancer phụ trách mảng sale và phát triển dự án cho COVASOL (covasol.com.vn); tư vấn giải pháp theo nhu cầu khách hàng, phối hợp triển khai và theo dõi tiến độ để đảm bảo hiệu quả kinh doanh lẫn chất lượng bàn giao.",
         "technologies": [
@@ -252,18 +253,48 @@
         ]
       },
       "job2": {
-        "title": "Lập Trình Viên Phát Triển Web & Ứng Dụng Di Động",
-        "company": "Công ty TNHH SOF (sof.com.vn)",
+        "title": "Lập Trình Viên Full Stack Web & Mobile",
+        "company": "Công ty TNHH SOF",
+        "website": "https://sof.com.vn/",
         "period": "31/03/2025 - 31/01/2026",
-        "description": "Phụ trách phát triển và nâng cấp các tính năng cho website và ứng dụng di động tại Công ty TNHH SOF (sof.com.vn); phối hợp với đội ngũ để phân tích yêu cầu, triển khai giải pháp kỹ thuật, tối ưu hiệu năng hệ thống và đảm bảo trải nghiệm người dùng ổn định, xuyên suốt.",
-        "technologies": ["PHP", "React Native", "MySQL"]
+        "description": "Đảm nhiệm vai trò Full Stack trong quá trình phát triển website và ứng dụng di động tại Công ty TNHH SOF (sof.com.vn); phụ trách cả frontend, backend, API và cơ sở dữ liệu, đồng thời phối hợp với đội ngũ để phân tích yêu cầu, tối ưu hiệu năng và đảm bảo trải nghiệm người dùng ổn định.",
+        "technologies": ["PHP", "React Native", "REST API", "MySQL"]
       },
       "job3": {
         "title": "Thực Tập Sinh Lập Trình Web",
         "company": "CÔNG TY TNHH TIN HỌC VINA",
+        "website": "https://itvina.com/",
         "period": "07/01/2024 - 31/12/2024",
         "description": "Thực tập tại CÔNG TY TNHH TIN HỌC VINA với vai trò nhân viên lập trình web, tham gia phát triển giao diện và chức năng hệ thống bằng Laravel và ReactJS.",
         "technologies": ["Laravel", "ReactJS"]
+      },
+      "job4": {
+        "title": "Phát Triển Website Thương Mại Điện Tử TCShop",
+        "company": "Dự Án TMĐT TCShop",
+        "period": "01/07/2024 - 30/11/2024",
+        "description": "Phát triển website thương mại điện tử TCShop với trang quản trị hỗ trợ quản lý sản phẩm, đơn hàng và người dùng; đồng thời triển khai các module quản lý bài viết, đánh giá, khuyến mãi, bảo hành, nhập kho và nhà cung cấp bằng Laravel 11.",
+        "technologies": ["Laravel 11", "PHP", "MySQL"]
+      },
+      "job5": {
+        "title": "Lập Trình Viên ASP.NET MVC & Ứng Dụng Desktop",
+        "company": "Dự Án Học Thuật — HUIT",
+        "period": "08/2023 - 12/2023",
+        "description": "Thực hiện dự án web bán điện thoại và phụ kiện bằng ASP.NET MVC, đồng thời phát triển phần mềm quản lý quán ăn bằng .NET WinForms kết hợp Dev Express và SQL Server.",
+        "technologies": ["ASP.NET MVC", ".NET WinForms", "Dev Express", "SQL Server"]
+      },
+      "job6": {
+        "title": "Phát Triển Website Bán Điện Thoại Di Động",
+        "company": "Dự Án Học Thuật — HUIT",
+        "period": "02/2024 - 06/2024",
+        "description": "Xây dựng website bán điện thoại di động với các chức năng quản lý dữ liệu sản phẩm và nghiệp vụ cơ bản, sử dụng PHP và MySQL.",
+        "technologies": ["PHP", "MySQL"]
+      },
+      "job7": {
+        "title": "Phát Triển App Android & Phần Mềm Quản Lý Nhà Hàng",
+        "company": "Dự Án Học Thuật — HUIT",
+        "period": "02/2024 - 06/2024",
+        "description": "Thực hiện ứng dụng Android bán điện thoại và laptop tích hợp API PHP, Firebase, đồng thời xây dựng phần mềm quản lý nhà hàng bằng Java và SQL Server.",
+        "technologies": ["Android", "Java", "API PHP", "Firebase", "SQL Server"]
       }
     }
   },

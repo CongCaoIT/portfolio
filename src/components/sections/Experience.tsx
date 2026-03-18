@@ -115,6 +115,36 @@ export function Experience() {
                   >
                     {t(`items.${key}.description` as "items.job1.description")}
                   </p>
+                  {(() => {
+                    const technologiesRaw = t.raw(
+                      `items.${key}.technologies` as "items.job1.technologies"
+                    );
+                    const technologies = Array.isArray(technologiesRaw)
+                      ? technologiesRaw.filter((item): item is string => typeof item === "string")
+                      : [];
+
+                    if (technologies.length === 0) {
+                      return null;
+                    }
+
+                    return (
+                      <div className="mt-4 flex flex-wrap gap-2">
+                        {technologies.map((tech) => (
+                          <span
+                            key={`${key}-${tech}`}
+                            className="text-xs px-3 py-1 rounded-full border"
+                            style={{
+                              background: "var(--secondary)",
+                              borderColor: "var(--primary)",
+                              color: "var(--primary)",
+                            }}
+                          >
+                            {tech}
+                          </span>
+                        ))}
+                      </div>
+                    );
+                  })()}
                 </motion.div>
               </motion.div>
             ))}

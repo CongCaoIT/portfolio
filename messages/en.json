@@ -244,22 +244,34 @@
     "present": "Present",
     "items": {
       "job1": {
-        "title": "Full Stack Web & Mobile Developer",
-        "company": "Academic Projects — HUIT",
-        "period": "02/2024 - 06/2024",
-        "description": "Developed a full-stack mobile app (Android, Firebase, PHP API) and a PHP/MySQL e-commerce website, plus a Java Swing restaurant management desktop app."
+        "title": "Freelancer - Sales & Project Development",
+        "company": "COVASOL (covasol.com.vn)",
+        "period": "15/09/2025 - Present",
+        "description": "Worked as a freelancer responsible for sales and project development at COVASOL (covasol.com.vn), consulting solutions based on client needs and coordinating delivery progress to ensure both business outcomes and quality execution.",
+        "technologies": [
+          "Sales",
+          "Project Development",
+          "PHP",
+          "MySQL",
+          "ReactJS",
+          "NextJS",
+          "NestJS",
+          "ExpressJS"
+        ]
       },
       "job2": {
+        "title": "Web & Mobile App Developer",
+        "company": "SOF Co., Ltd. (sof.com.vn)",
+        "period": "31/03/2025 - 31/01/2026",
+        "description": "Worked on website and mobile app development for SOF (sof.com.vn), focusing on feature implementation, performance optimization, and stable user experience delivery.",
+        "technologies": ["PHP", "React Native", "MySQL"]
+      },
+      "job3": {
         "title": "ASP.NET & Desktop Developer",
         "company": "Academic Projects — HUIT",
         "period": "08/2023 - 12/2023",
-        "description": "Built an ASP.NET MVC e-commerce site for phones & accessories and a .NET WinForms restaurant POS system with Dev Express components and SQL Server."
-      },
-      "job3": {
-        "title": "Frontend Developer",
-        "company": "Self-learning",
-        "period": "2023",
-        "description": "Designed and built responsive web layouts using HTML, CSS, JavaScript, and Bootstrap, sharpening front-end fundamentals."
+        "description": "Built an ASP.NET MVC e-commerce site for phones & accessories and a .NET WinForms restaurant POS system with Dev Express components and SQL Server.",
+        "technologies": ["ASP.NET MVC", ".NET WinForms", "Dev Express", "SQL Server"]
       }
     }
   },

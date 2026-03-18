@@ -236,22 +236,34 @@
     "present": "Hiện tại",
     "items": {
       "job1": {
-        "title": "Lập Trình Viên Web & Mobile",
-        "company": "Dự Án Học Tập — HUIT",
-        "period": "02/2024 - 06/2024",
-        "description": "Phát triển ứng dụng di động full-stack (Android, Firebase, PHP API) và website thương mại điện tử PHP/MySQL, cùng phần mềm quản lý nhà hàng Java Swing."
+        "title": "Freelancer - Phụ Trách Sale & Phát Triển Dự Án",
+        "company": "COVASOL (covasol.com.vn)",
+        "period": "15/09/2025 - Hiện tại",
+        "description": "Đảm nhiệm vai trò freelancer phụ trách mảng sale và phát triển dự án cho COVASOL (covasol.com.vn); tư vấn giải pháp theo nhu cầu khách hàng, phối hợp triển khai và theo dõi tiến độ để đảm bảo hiệu quả kinh doanh lẫn chất lượng bàn giao.",
+        "technologies": [
+          "Sales",
+          "Phát triển dự án",
+          "PHP",
+          "MySQL",
+          "ReactJS",
+          "NextJS",
+          "NestJS",
+          "ExpressJS"
+        ]
       },
       "job2": {
-        "title": "Lập Trình Viên ASP.NET & Desktop",
-        "company": "Dự Án Học Tập — HUIT",
-        "period": "08/2023 - 12/2023",
-        "description": "Xây dựng website thương mại điện tử ASP.NET MVC và hệ thống POS nhà hàng bằng .NET WinForms với Dev Express và SQL Server."
+        "title": "Lập Trình Viên Phát Triển Web & Ứng Dụng Di Động",
+        "company": "Công ty TNHH SOF (sof.com.vn)",
+        "period": "31/03/2025 - 31/01/2026",
+        "description": "Phụ trách phát triển và nâng cấp các tính năng cho website và ứng dụng di động tại Công ty TNHH SOF (sof.com.vn); phối hợp với đội ngũ để phân tích yêu cầu, triển khai giải pháp kỹ thuật, tối ưu hiệu năng hệ thống và đảm bảo trải nghiệm người dùng ổn định, xuyên suốt.",
+        "technologies": ["PHP", "React Native", "MySQL"]
       },
       "job3": {
-        "title": "Lập Trình Viên Frontend",
-        "company": "Tự học",
-        "period": "2023",
-        "description": "Thiết kế và xây dựng các giao diện web responsive sử dụng HTML, CSS, JavaScript và Bootstrap."
+        "title": "Thực Tập Sinh Lập Trình Web",
+        "company": "CÔNG TY TNHH TIN HỌC VINA",
+        "period": "07/01/2024 - 31/12/2024",
+        "description": "Thực tập tại CÔNG TY TNHH TIN HỌC VINA với vai trò nhân viên lập trình web, tham gia phát triển giao diện và chức năng hệ thống bằng Laravel và ReactJS.",
+        "technologies": ["Laravel", "ReactJS"]
       }
     }
   },

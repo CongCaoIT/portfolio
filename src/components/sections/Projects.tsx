@@ -22,7 +22,8 @@ type ProjectKey =
   | "project4"
   | "project5"
   | "project6"
-  | "project7";
+  | "project7"
+  | "project8";
 
 const DETAIL_GROUPS = ["website", "system", "products", "members"] as const;
 type DetailGroup = (typeof DETAIL_GROUPS)[number];
@@ -87,6 +88,12 @@ const projectsData: {
   {
     key: "project7",
     tags: ["HTML", "CSS", "JavaScript", "Bootstrap"],
+    github: "https://github.com/CongCaoIT/",
+    demo: "",
+  },
+  {
+    key: "project8",
+    tags: ["Android", "Java", "PHP API", "Firebase", "SQL Server"],
     github: "https://github.com/CongCaoIT/",
     demo: "",
   },

@@ -235,6 +235,10 @@
       "project7": {
         "title": "Shopee-like Web UI",
         "description": "Responsive front-end UI inspired by Shopee e-commerce platform, built with HTML, CSS, JavaScript, and Bootstrap."
+      },
+      "project8": {
+        "title": "Android App & Restaurant Management Software",
+        "description": "Developed an Android app for phone and laptop sales integrated with PHP APIs and Firebase, while also building a restaurant management software solution using Java and SQL Server."
       }
     }
   },

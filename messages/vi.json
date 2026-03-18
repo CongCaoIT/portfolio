@@ -227,6 +227,10 @@
       "project7": {
         "title": "Giao Diện Web Shopee",
         "description": "Giao diện front-end responsive lấy cảm hứng từ nền tảng thương mại điện tử Shopee, xây dựng bằng HTML, CSS, JavaScript và Bootstrap."
+      },
+      "project8": {
+        "title": "Phát Triển App Android & Phần Mềm Quản Lý Nhà Hàng",
+        "description": "Phát triển ứng dụng Android bán điện thoại và laptop tích hợp API PHP, Firebase; đồng thời xây dựng phần mềm quản lý nhà hàng bằng Java và SQL Server."
       }
     }
   },

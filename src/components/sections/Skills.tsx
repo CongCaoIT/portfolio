@@ -109,61 +109,58 @@ export function Skills() {
         </motion.div>
 
         <div className="grid md:grid-cols-2 gap-8">
-          {(
-            Object.entries(skillsData) as [
-              keyof typeof skillsData,
-              SkillItem[],
-            ][]
-          ).map(([category, skills], catIndex) => (
-            <motion.div
-              key={category}
-              initial={{ opacity: 0, y: 30 }}
-              animate={isInView ? { opacity: 1, y: 0 } : {}}
-              transition={{
-                duration: 0.5,
-                delay: catIndex * 0.1,
-              }}
-              className="p-6 rounded-2xl border"
-              style={{
-                background: "var(--card)",
-                borderColor: "var(--border)",
-              }}
-            >
-              <div className="flex items-center justify-between mb-4">
-                <h3 className="text-lg font-semibold" style={{ color: "var(--primary)" }}>
-                  {t(`categories.${category}` as "categories.frontend")}
-                </h3>
-                <span className="text-xs" style={{ color: "var(--muted-foreground)" }}>
-                  {skills.length}
-                </span>
-              </div>
-              <div className="flex flex-wrap gap-2">
-                {skills.map((skill, i) => (
-                  <motion.div
-                    key={skill.name}
-                    initial={{ opacity: 0, y: 8 }}
-                    animate={isInView ? { opacity: 1, y: 0 } : {}}
-                    transition={{ duration: 0.28, delay: catIndex * 0.08 + i * 0.05 }}
-                    className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full border"
-                    style={{
-                      background: levelStyles[skill.level].bg,
-                      borderColor: levelStyles[skill.level].border,
-                    }}
-                  >
-                    <span className="text-xs font-medium" style={{ color: "var(--foreground)" }}>
-                      {skill.name}
-                    </span>
-                    <span
-                      className="text-[10px] font-semibold uppercase tracking-wide"
-                      style={{ color: levelStyles[skill.level].text }}
+          {(Object.entries(skillsData) as [keyof typeof skillsData, SkillItem[]][]).map(
+            ([category, skills], catIndex) => (
+              <motion.div
+                key={category}
+                initial={{ opacity: 0, y: 30 }}
+                animate={isInView ? { opacity: 1, y: 0 } : {}}
+                transition={{
+                  duration: 0.5,
+                  delay: catIndex * 0.1,
+                }}
+                className="p-6 rounded-2xl border"
+                style={{
+                  background: "var(--card)",
+                  borderColor: "var(--border)",
+                }}
+              >
+                <div className="flex items-center justify-between mb-4">
+                  <h3 className="text-lg font-semibold" style={{ color: "var(--primary)" }}>
+                    {t(`categories.${category}` as "categories.frontend")}
+                  </h3>
+                  <span className="text-xs" style={{ color: "var(--muted-foreground)" }}>
+                    {skills.length}
+                  </span>
+                </div>
+                <div className="flex flex-wrap gap-2">
+                  {skills.map((skill, i) => (
+                    <motion.div
+                      key={skill.name}
+                      initial={{ opacity: 0, y: 8 }}
+                      animate={isInView ? { opacity: 1, y: 0 } : {}}
+                      transition={{ duration: 0.28, delay: catIndex * 0.08 + i * 0.05 }}
+                      className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full border"
+                      style={{
+                        background: levelStyles[skill.level].bg,
+                        borderColor: levelStyles[skill.level].border,
+                      }}
                     >
-                      {t(`levels.${skill.level}` as "levels.proficient")}
-                    </span>
-                  </motion.div>
-                ))}
-              </div>
-            </motion.div>
-          ))}
+                      <span className="text-xs font-medium" style={{ color: "var(--foreground)" }}>
+                        {skill.name}
+                      </span>
+                      <span
+                        className="text-[10px] font-semibold uppercase tracking-wide"
+                        style={{ color: levelStyles[skill.level].text }}
+                      >
+                        {t(`levels.${skill.level}` as "levels.proficient")}
+                      </span>
+                    </motion.div>
+                  ))}
+                </div>
+              </motion.div>
+            )
+          )}
         </div>
       </div>
     </section>

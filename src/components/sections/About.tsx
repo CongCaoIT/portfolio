@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useRef } from "react";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
 import {
@@ -30,8 +30,11 @@ const stats = [
 
 export function About() {
   const t = useTranslations("about");
+  const locale = useLocale();
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, margin: "-100px" });
+  const cvDownloadHref =
+    locale === "vi" ? "/cv_caotancong_tiengviet.pdf" : "/cv_caotancong_english.pdf";
 
   return (
     <section id="about" className="section-padding px-4">
@@ -169,7 +172,7 @@ export function About() {
 
             {/* Download CV */}
             <motion.a
-              href="/cv_caotancong.pdf"
+              href={cvDownloadHref}
               download
               whileHover={{ scale: 1.03, boxShadow: "0 0 20px var(--primary)" }}
               whileTap={{ scale: 0.97 }}

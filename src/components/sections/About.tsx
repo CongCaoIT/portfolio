@@ -24,7 +24,7 @@ import Image from "next/image";
 const stats = [
   { key: "years", value: "1.5+", icon: Briefcase },
   { key: "projects", value: "15+", icon: Code2 },
-  { key: "clients", value: "300+", icon: Users },
+  { key: "clients", value: "10,000+", icon: Activity },
   { key: "tech", value: "8+", icon: Cpu },
 ];
 

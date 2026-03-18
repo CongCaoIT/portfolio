@@ -4,14 +4,11 @@ import { useTranslations } from "next-intl";
 import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef } from "react";
-import { GraduationCap, Award } from "lucide-react";
+import { GraduationCap } from "lucide-react";
 
-type EduKey = "edu1" | "edu2" | "edu3" | "edu4";
+type EduKey = "edu1";
 const eduItems: { key: EduKey; icon: typeof GraduationCap }[] = [
   { key: "edu1", icon: GraduationCap },
-  { key: "edu2", icon: GraduationCap },
-  { key: "edu3", icon: GraduationCap },
-  { key: "edu4", icon: GraduationCap },
 ];
 
 export function Education() {
@@ -38,7 +35,7 @@ export function Education() {
           <div className="w-16 h-1 mx-auto rounded-full" style={{ background: "var(--primary)" }} />
         </motion.div>
 
-        <div className="grid md:grid-cols-2 gap-6">
+        <div className="grid gap-6">
           {eduItems.map(({ key, icon: Icon }, i) => (
             <motion.div
               key={key}

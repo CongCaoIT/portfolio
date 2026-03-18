@@ -26,7 +26,7 @@
     "stats": {
       "years": "Năm Kinh Nghiệm",
       "projects": "Dự Án",
-      "clients": "Giờ Lập Trình",
+      "clients": "Dòng Code",
       "tech": "Công Nghệ"
     },
     "info": {
@@ -53,7 +53,12 @@
   },
   "skills": {
     "section_title": "Kỹ Năng",
-    "section_subtitle": "Lĩnh vực - Chuyên môn",
+    "section_subtitle": "Năng lực theo mức độ thành thạo",
+    "levels": {
+      "proficient": "Thành thạo",
+      "intermediate": "Nắm vững",
+      "familiar": "Có kinh nghiệm"
+    },
     "categories": {
       "frontend": "Frontend",
       "backend": "Backend",

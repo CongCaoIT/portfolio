@@ -44,6 +44,7 @@ const projectsData: {
   github: string;
   demo: string;
   hasDetails?: boolean;
+  showCode?: boolean;
 }[] = [
   {
     key: "project1",
@@ -51,6 +52,7 @@ const projectsData: {
     github: "https://github.com/COVASOL/Clothing.git",
     demo: "https://tafas.vn",
     hasDetails: true,
+    showCode: false,
   },
   {
     key: "project2",
@@ -58,6 +60,7 @@ const projectsData: {
     github: "https://github.com/COVASOL/smartmath.git",
     demo: "https://smartmath.covasol.io.vn/",
     hasDetails: true,
+    showCode: false,
   },
   {
     key: "project3",
@@ -65,6 +68,7 @@ const projectsData: {
     github: "https://github.com/CongCaoIT/",
     demo: "https://sof.com.vn",
     hasDetails: true,
+    showCode: false,
   },
   {
     key: "project4",
@@ -125,7 +129,7 @@ export function Projects() {
         </motion.div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {projectsData.map(({ key, tags, github, demo, hasDetails }, i) => (
+          {projectsData.map(({ key, tags, github, demo, hasDetails, showCode }, i) => (
             <motion.div
               key={key}
               initial={{ opacity: 0, y: 30 }}
@@ -177,7 +181,7 @@ export function Projects() {
 
               {/* Links */}
               <div className="flex flex-wrap items-center gap-3">
-                {github && (
+                {github && showCode !== false && (
                   <a
                     href={github}
                     target="_blank"

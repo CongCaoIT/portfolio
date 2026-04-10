@@ -22,7 +22,7 @@ import {
 import Image from "next/image";
 
 const stats = [
-  { key: "years", value: "1.5+", icon: Briefcase },
+  { key: "years", value: "2+", icon: Briefcase },
   { key: "projects", value: "15+", icon: Code2 },
   { key: "clients", value: "10,000+", icon: Activity },
   { key: "tech", value: "8+", icon: Cpu },
